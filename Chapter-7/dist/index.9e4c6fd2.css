@@ -1,0 +1,44 @@
+.header {
+  border: 1px solid #000;
+  justify-content: space-between;
+  display: flex;
+}
+
+.nav-items > ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-items > ul > li {
+  padding: 10px;
+}
+
+.logo {
+  width: 90px;
+}
+
+.card {
+  width: 200px;
+  border: 1px solid #000;
+  margin: 10px;
+  padding: 10px;
+}
+
+.shimmerCard {
+  width: 200px;
+  height: 200px;
+  background-color: #d3d3d3;
+  margin: 20px;
+}
+
+.card > img {
+  width: 100%;
+}
+
+.cardList {
+  flex-wrap: wrap;
+  justify-content: center;
+  display: flex;
+}
+
+/*# sourceMappingURL=index.9e4c6fd2.css.map */
