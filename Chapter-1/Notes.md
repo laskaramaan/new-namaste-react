@@ -1,15 +1,25 @@
 ## Things that we learned in this lecture
 
 1. different ways to write simple hello world prgm
+
    1.1. inside html
+
    1.2. inside JS
+
    -> document.createElement
+
    -> document.getElementById
+
    -> appendChild
+
    1.3. inside react
+
    -> React.createElement
+
    -> ReactDOM.createRoot
+
    -> root.render(heading)
+
 2. Difference between react and readtDOM
 3. Difference between react.development.js and react.production.js files via CDN?
 
