@@ -37,3 +37,5 @@ upon render-> react will suspend loading
 ```
 
 Here, inside fallback-> whatever we write-> it will execute till the page is loading
+
+**Note:** Never ever dynamically load a component inside another component
