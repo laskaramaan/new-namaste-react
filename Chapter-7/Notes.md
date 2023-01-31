@@ -73,7 +73,7 @@ react-router-dom gives us something known as "Link" which helps us to change rou
 e.g.
  <Link to="/about">
             <li>About</li>
-          </Link>
+ </Link>
 
 ```
 
@@ -98,6 +98,7 @@ Outlet will be filled by the children configuration
 
 ```
 import { useParams } from "react-router-dom";
+
 ```
 
 at the end of the day useParams is a hook, it is used for dynamic routing

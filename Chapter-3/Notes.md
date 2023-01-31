@@ -1,3 +1,35 @@
+## Things that we learned in this lecture
+
+1. What is pollyfill
+
+2. what converts the newer code to older code?
+
+3. What is Babel?
+
+4. Suppose an interviewer ask you, how can you build a performant scalable webapp
+
+5. Differnece between npm and npx.
+
+6. read about react key reconciliation
+
+7. How does createElement work
+
+8. What is JSX?
+
+9. Major differneces between HTML and JSX
+
+10. Advatages of JSX
+
+11. How many package-lock.json file is present inside a project?
+
+12. React component
+
+13. differnece between react element and functional component
+
+14. How to use the react element inside the component?
+
+15. what is component composition?
+
 ### Q. What is pollyfill?
 
 A. Pollyfill is a code which is a replacement for a newer version of code, so that it can become compatible with olde rversion of browser.
@@ -89,8 +121,9 @@ const heading =(
     </h1>
 );
 ```
+
 **Syntax for rendering react element:**
-    root.render(heading)
+root.render(heading)
 
 ### Q. React component
 
@@ -98,16 +131,12 @@ A. two types of components are there: 1. Functional components => New 2. Class B
 
 **Functional Components:** Functional component is nothing but a JS function that returns some piece of JSX(react element) or a component itself
 e.g.:
-    ```
-        const HeaderComponent =() =>{
+`    const HeaderComponent =() =>{
             return (
                 <h1>hello, world</h1>
             )
-        }
-    ```
-        **Remember:** In Functional component the name starts with capital letter. It's a good practice to follow this
-
-
+        }`
+**Remember:** In Functional component the name starts with capital letter. It's a good practice to follow this
 
     ```
     const HeaderComponent =() =>{
@@ -124,7 +153,7 @@ e.g.:
           <div>
                 <h1>hello, world</h1>
         </div>
-     
+
         }
     ```
 
@@ -132,9 +161,11 @@ e.g.:
     root.render(<HeaderComponent/>)
 
 ### differnece between react element and functional component
-const heading =()   const HeaderComponent =() =>{}
+
+const heading =(), const HeaderComponent =() =>{}
 
 ### Q. How to use the react element inside the component?
+
 A. we will do that with the help of curly braces{}
 
 ```
@@ -156,9 +187,8 @@ const HeaderComponent =() =>{
 
 ```
 
-
-### **Imp:** In JSX=> {} inside this curly braces we can write any piece of JS code 
-
+### **Imp:** In JSX=> {} inside this curly braces we can write any piece of JS code
 
 ### Q. what is component composition?
+
 A. If we are using component inside a component then this is known as component composition
