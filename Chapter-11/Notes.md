@@ -56,7 +56,7 @@ Context-> we use context where we need data all across the app.(assume that cont
 
 ### Context in class component
 
-use use the context as a component
+we use the context as a component
 
 ```
 <UserContext.consumer>
