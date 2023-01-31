@@ -229,17 +229,21 @@ Unount will be called just before removing the component from the DOM[Basically 
 
 To implement dependency array thing in class based components:
 
+```
 useEffect(()=>{
 
 },[count])
+```
 
 To implement this in classbased component was headeache
 
+```
 componentDidMount(prevProps,PrevState){
 if(this.state.count!== prevState.count){
 //code
 }
 }
+```
 
 ### in useEffect what we need to do to unMount?
 
