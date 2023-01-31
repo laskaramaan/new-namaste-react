@@ -17,6 +17,8 @@ It is required in large-scale production application
 
 ### At what point you do chunking?
 
+React docs: https://reactjs.org/docs/code-splitting.html
+
 A.Wherever you have a import of that particualr component-> you will have to do lazy load it(dynamic import)
 
 e.g.:
