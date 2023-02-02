@@ -168,3 +168,5 @@ cb setTimeout //comes from microtask queue
 cb Netflix  // comes from callback queue
 
 ```
+
+**Resource** https://www.youtube.com/watch?v=8zKuNo4ay8E&t=279s&ab_channel=AkshaySaini

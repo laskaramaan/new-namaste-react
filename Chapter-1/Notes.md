@@ -1,28 +1,3 @@
-## Things that we learned in this lecture
-
-1. different ways to write simple hello world prgm
-
-   1.1. inside html
-
-   1.2. inside JS
-
-   -> document.createElement
-
-   -> document.getElementById
-
-   -> appendChild
-
-   1.3. inside react
-
-   -> React.createElement
-
-   -> ReactDOM.createRoot
-
-   -> root.render(heading)
-
-2. Difference between react and readtDOM
-3. Difference between react.development.js and react.production.js files via CDN?
-
 ### Q. Difference between Library and framework
 
 ### VS Code extensions
@@ -35,8 +10,9 @@
 ### Q.How do we create h1 tag inside JS?
 
 ```
+<body>
 <div id="root">
-      <h1>Namaste everyone</h1>
+
 </div>
  <script>
     const heading = document.createElement("h1");
@@ -44,6 +20,7 @@
     document.getElementById("root");
     root.appendChild(heading);
   </script>
+</body>
 ```
 
 **How to do the same thing with react**
@@ -51,9 +28,9 @@
 ```
 <body>
     <div id="root">
-      <h1>Namaste everyone</h1>
+
     </div>
-</body>
+
 <script>
     const heading = React.createElement("h1", {}, "Namaste everyone!");
 
@@ -61,13 +38,10 @@
 
     const root = ReactDOM.createRoot(document.getElementById("root"));
 
-    root.render(heading);
+    root.render(heading); // the render() will modify the DOM
   </script>
+</body>
 ```
-
-### render()->
-
-It will modify the DOM
 
 ### Q. What will I see on " console.log(heading)"
 
@@ -103,6 +77,15 @@ React.createElement(
 
 A. React-> it has core react library
 ReactDOM->it is used for web version of react. (we know that react can be written for web as well as mobile)
+
+### Q. What is cross origin attribute?
+
+A. Cross Origin attributes provide support for CORS.
+IF we serve react from CDN , keep cross origin attribute set:
+
+<script crossorigin src=""></script>
+
+This indicates that the script should be loaded from a different origin
 
 ### Q. What is async and defer?
 
