@@ -44,7 +44,7 @@ A. They wanted to write whole HTML inside JS file
 
 ### Q. Difference between react and reactDOM
 
-A. react is the core package and reactDOM is used for manipulating the DOM
+A. react is the core package that helps us to build the user interfaces and reactDOM is used for manipulating the DOM
 
 createElement()=>
 
