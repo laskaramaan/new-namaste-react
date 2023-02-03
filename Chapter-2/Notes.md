@@ -66,10 +66,12 @@ A. Bundlers minify your code, remove the console logs and a lot of other things 
 Note: create-react-app uses webpack as bundler
 
 But we will use **parcel**
+
 PARCEL is a package
 
-**Now what is a package?**
-Pacxkage is kind of a module or some piece of code, when need to use package in the project we would have to use package manager (e.g. npm, yarn)
+### Now what is a package?
+
+Package is kind of a module or some piece of code, when we need to use package in the project we would have to use package manager (e.g. npm, yarn)
 
 `To install npm: npm init -y // init stands for initialize, -y it skips a lot of steps`
 
