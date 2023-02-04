@@ -143,8 +143,8 @@
     }
   }
 })({"1xC6H":[function(require,module,exports) {
-var Refresh = require("78a2accb4731b02b");
-var ErrorOverlay = require("a6134844e82d55de");
+var Refresh = require("f9e3b40b1cf4b36d");
+var ErrorOverlay = require("97a41947e2982cac");
 Refresh.injectIntoGlobalHook(window);
 window.$RefreshReg$ = function() {};
 window.$RefreshSig$ = function() {
@@ -163,11 +163,11 @@ window.addEventListener("parcelhmraccept", ()=>{
     ErrorOverlay.dismissRuntimeErrors();
 });
 
-},{"78a2accb4731b02b":"786KC","a6134844e82d55de":"1dldy"}],"786KC":[function(require,module,exports) {
+},{"f9e3b40b1cf4b36d":"786KC","97a41947e2982cac":"1dldy"}],"786KC":[function(require,module,exports) {
 "use strict";
-module.exports = require("76db05d45187743c");
+module.exports = require("cea94a405a4747df");
 
-},{"76db05d45187743c":"hdge7"}],"hdge7":[function(require,module,exports) {
+},{"cea94a405a4747df":"hdge7"}],"hdge7":[function(require,module,exports) {
 /** @license React v0.9.0
  * react-refresh-runtime.development.js
  *
@@ -628,7 +628,7 @@ module.exports = require("76db05d45187743c");
 })();
 
 },{}],"1dldy":[function(require,module,exports) {
-var process = require("3a287408c7576abe");
+var process = require("1c0ca57afd81358c");
 !function(e, t) {
     module.exports = t();
 }(window, function() {
@@ -2358,7 +2358,7 @@ var process = require("3a287408c7576abe");
     ]);
 });
 
-},{"3a287408c7576abe":"d5jf4"}],"d5jf4":[function(require,module,exports) {
+},{"1c0ca57afd81358c":"d5jf4"}],"d5jf4":[function(require,module,exports) {
 // shim for using process in browser
 var process = module.exports = {};
 // cached from whatever global is present so that test runners that stub it
@@ -2925,1806 +2925,33 @@ $parcel$ReactRefreshHelpers$c1db.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _client = require("react-dom/client");
 var _clientDefault = parcelHelpers.interopDefault(_client);
-/* 
-  Header
-        - Logo(Title)
-        - Nav Items(Right Side)
-        - Cart
-     Body 
-        - Search bar
-        - RestrauntList
-          - RestaurantCard (many cards)
-              - Image
-              - Name
-              - Rating
-              - Cusines
-     Footer
-      - links
-      - Copyright
- */ const Title = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-        id: "title",
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-            href: "/",
-            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                className: "logo",
-                alt: "logo",
-                src: "https://yt3.ggpht.com/ytc/AMLnZu_EC-ECXAxRAixWGEfMsE1rdSoetBHyxmLNdtCB=s900-c-k-c0x00ffffff-no-rj"
-            }, void 0, false, {
-                fileName: "App.js",
-                lineNumber: 25,
-                columnNumber: 7
-            }, undefined)
-        }, void 0, false, {
-            fileName: "App.js",
-            lineNumber: 24,
-            columnNumber: 5
-        }, undefined)
-    }, "h2", false, {
-        fileName: "App.js",
-        lineNumber: 23,
-        columnNumber: 3
-    }, undefined);
-_c = Title;
-// Composing Comopnentss
-const HeaderComponent = ()=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "header",
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Title, {}, void 0, false, {
-                fileName: "App.js",
-                lineNumber: 37,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "nav-items",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                            children: "Home"
-                        }, void 0, false, {
-                            fileName: "App.js",
-                            lineNumber: 40,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                            children: "About"
-                        }, void 0, false, {
-                            fileName: "App.js",
-                            lineNumber: 41,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                            children: "Contact"
-                        }, void 0, false, {
-                            fileName: "App.js",
-                            lineNumber: 42,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                            children: "cart"
-                        }, void 0, false, {
-                            fileName: "App.js",
-                            lineNumber: 43,
-                            columnNumber: 11
-                        }, undefined)
-                    ]
-                }, void 0, true, {
-                    fileName: "App.js",
-                    lineNumber: 39,
-                    columnNumber: 9
-                }, undefined)
-            }, void 0, false, {
-                fileName: "App.js",
-                lineNumber: 38,
-                columnNumber: 7
-            }, undefined)
-        ]
-    }, void 0, true, {
-        fileName: "App.js",
-        lineNumber: 36,
-        columnNumber: 5
-    }, undefined);
-};
-_c1 = HeaderComponent;
-const cardList = [
-    {
-        type: "restaurant",
-        data: {
-            type: "F",
-            id: "73011",
-            name: "KFC",
-            uuid: "27ff4155-fe46-418e-9862-ab98953bf953",
-            city: "22",
-            area: "Anand Vihar Colony",
-            totalRatingsString: "5000 ratings",
-            cloudinaryImageId: "bdcd233971b7c81bf77e1fa4471280eb",
-            cuisines: [
-                "American",
-                "Snacks",
-                "Biryani"
-            ],
-            tags: [],
-            costForTwo: 30000,
-            costForTwoString: "₹300 FOR TWO",
-            deliveryTime: 31,
-            minDeliveryTime: 31,
-            maxDeliveryTime: 31,
-            slaString: "31 MINS",
-            lastMileTravel: 6.199999809265137,
-            slugs: {
-                restaurant: "kfc-chukkuwala-chukkuwala",
-                city: "dehradun"
-            },
-            cityState: "22",
-            address: "KFC Restaurant, Khasra No 1281/1291, Opp Dr Manish Jain hospital, Chakrata road, Dehradun-248001",
-            locality: "Clock Tower",
-            parentId: 547,
-            unserviceable: false,
-            veg: false,
-            select: false,
-            favorite: false,
-            tradeCampaignHeaders: [],
-            aggregatedDiscountInfo: {
-                header: "50% off",
-                shortDescriptionList: [
-                    {
-                        meta: "50% off | Use WELCOME50",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT"
-                    }
-                ],
-                descriptionList: [
-                    {
-                        meta: "50% off up to ₹100 | Use code WELCOME50",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT"
-                    }
-                ],
-                subHeader: "",
-                headerType: 0,
-                superFreedel: ""
-            },
-            aggregatedDiscountInfoV2: {
-                header: "50% OFF",
-                shortDescriptionList: [
-                    {
-                        meta: "Use WELCOME50",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT"
-                    }
-                ],
-                descriptionList: [
-                    {
-                        meta: "50% off up to ₹100 | Use code WELCOME50",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT"
-                    }
-                ],
-                subHeader: "",
-                headerType: 0,
-                superFreedel: ""
-            },
-            ribbon: [
-                {
-                    type: "PROMOTED"
-                }
-            ],
-            chain: [],
-            feeDetails: {
-                fees: [],
-                totalFees: 0,
-                message: "",
-                title: "",
-                amount: "",
-                icon: ""
-            },
-            availability: {
-                opened: true,
-                nextOpenMessage: "",
-                nextCloseMessage: ""
-            },
-            longDistanceEnabled: 0,
-            rainMode: "NONE",
-            thirdPartyAddress: false,
-            thirdPartyVendor: "",
-            adTrackingID: "cid=5698075~p=1~eid=00000185-8b09-7c92-0e51-a04b00dc0124",
-            badges: {
-                imageBased: [],
-                textBased: [],
-                textExtendedBadges: []
-            },
-            lastMileTravelString: "6.1 kms",
-            hasSurge: false,
-            sla: {
-                restaurantId: "73011",
-                deliveryTime: 31,
-                minDeliveryTime: 31,
-                maxDeliveryTime: 31,
-                lastMileTravel: 6.199999809265137,
-                lastMileDistance: 0,
-                serviceability: "SERVICEABLE",
-                rainMode: "NONE",
-                longDistance: "NOT_LONG_DISTANCE",
-                preferentialService: false,
-                iconType: "EMPTY"
-            },
-            promoted: true,
-            avgRating: "4.0",
-            totalRatings: 5000,
-            new: false
-        },
-        subtype: "basic"
-    },
-    {
-        type: "restaurant",
-        data: {
-            type: "F",
-            id: "542132",
-            name: "Domnik Pizza",
-            uuid: "f2ee37f5-9ab0-4903-9420-6cae020b0a38",
-            city: "22",
-            area: "Majra    Bansal Home",
-            totalRatingsString: "50 ratings",
-            cloudinaryImageId: "sboh9oor0cvp6ztsyhvj",
-            cuisines: [
-                "Pizzas",
-                "Italian",
-                "Fast Food",
-                "Snacks",
-                "Beverages"
-            ],
-            tags: [],
-            costForTwo: 30000,
-            costForTwoString: "₹300 FOR TWO",
-            deliveryTime: 33,
-            minDeliveryTime: 33,
-            maxDeliveryTime: 33,
-            slaString: "33 MINS",
-            lastMileTravel: 0.6000000238418579,
-            slugs: {
-                restaurant: "domnik-pizza-patel-nagar-patel-nagar-2",
-                city: "dehradun"
-            },
-            cityState: "22",
-            address: "28/3 Sewala Chandravani Road, Arcedia Grant, Dehradun Rural, Dehradun, Uttarakhand",
-            locality: "Patel Nagar",
-            parentId: 22321,
-            unserviceable: false,
-            veg: false,
-            select: false,
-            favorite: false,
-            tradeCampaignHeaders: [],
-            aggregatedDiscountInfo: {
-                header: "50% off",
-                shortDescriptionList: [
-                    {
-                        meta: "50% off | Use WELCOME50",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT"
-                    }
-                ],
-                descriptionList: [
-                    {
-                        meta: "50% off up to ₹100 | Use code WELCOME50",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT"
-                    }
-                ],
-                subHeader: "",
-                headerType: 0,
-                superFreedel: ""
-            },
-            aggregatedDiscountInfoV2: {
-                header: "50% OFF",
-                shortDescriptionList: [
-                    {
-                        meta: "Use WELCOME50",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT"
-                    }
-                ],
-                descriptionList: [
-                    {
-                        meta: "50% off up to ₹100 | Use code WELCOME50",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT"
-                    }
-                ],
-                subHeader: "",
-                headerType: 0,
-                superFreedel: ""
-            },
-            chain: [],
-            feeDetails: {
-                fees: [],
-                totalFees: 0,
-                message: "",
-                title: "",
-                amount: "",
-                icon: ""
-            },
-            availability: {
-                opened: true,
-                nextOpenMessage: "",
-                nextCloseMessage: ""
-            },
-            longDistanceEnabled: 0,
-            rainMode: "NONE",
-            thirdPartyAddress: false,
-            thirdPartyVendor: "",
-            adTrackingID: "",
-            badges: {
-                imageBased: [],
-                textBased: [],
-                textExtendedBadges: []
-            },
-            lastMileTravelString: "0.6 kms",
-            hasSurge: false,
-            sla: {
-                restaurantId: "542132",
-                deliveryTime: 33,
-                minDeliveryTime: 33,
-                maxDeliveryTime: 33,
-                lastMileTravel: 0.6000000238418579,
-                lastMileDistance: 0,
-                serviceability: "SERVICEABLE",
-                rainMode: "NONE",
-                longDistance: "NOT_LONG_DISTANCE",
-                preferentialService: false,
-                iconType: "EMPTY"
-            },
-            promoted: false,
-            avgRating: "3.8",
-            totalRatings: 50,
-            new: false
-        },
-        subtype: "basic"
-    },
-    {
-        type: "restaurant",
-        data: {
-            type: "F",
-            id: "321517",
-            name: "FOOD PLANET RESTAURANT",
-            uuid: "899d5dd4-200a-48b2-a321-391bb9486ec2",
-            city: "22",
-            area: "Majra",
-            totalRatingsString: "50 ratings",
-            cloudinaryImageId: "ykboewqeoxnne8fgrnui",
-            cuisines: [
-                "Indian",
-                "Chinese",
-                "Tandoor",
-                "Thalis",
-                "Fast Food"
-            ],
-            tags: [],
-            costForTwo: 20000,
-            costForTwoString: "₹200 FOR TWO",
-            deliveryTime: 25,
-            minDeliveryTime: 25,
-            maxDeliveryTime: 25,
-            slaString: "25 MINS",
-            lastMileTravel: 0.699999988079071,
-            slugs: {
-                restaurant: "food-planet-restaurant-patel-nagar-patel-nagar",
-                city: "dehradun"
-            },
-            cityState: "22",
-            address: "157/11, Chandra Parisar Chandra Bani Rd, Ekta Enclave, Doon Enclave, Majra, Dehradun, Uttarakhand 248171",
-            locality: "Patel Nagar",
-            parentId: 81850,
-            unserviceable: false,
-            veg: false,
-            select: false,
-            favorite: false,
-            tradeCampaignHeaders: [],
-            aggregatedDiscountInfo: {
-                header: "50% off",
-                shortDescriptionList: [
-                    {
-                        meta: "50% off | Use WELCOME50",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT"
-                    }
-                ],
-                descriptionList: [
-                    {
-                        meta: "50% off up to ₹100 | Use code WELCOME50",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT"
-                    }
-                ],
-                subHeader: "",
-                headerType: 0,
-                superFreedel: ""
-            },
-            aggregatedDiscountInfoV2: {
-                header: "50% OFF",
-                shortDescriptionList: [
-                    {
-                        meta: "Use WELCOME50",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT"
-                    }
-                ],
-                descriptionList: [
-                    {
-                        meta: "50% off up to ₹100 | Use code WELCOME50",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT"
-                    }
-                ],
-                subHeader: "",
-                headerType: 0,
-                superFreedel: ""
-            },
-            chain: [],
-            feeDetails: {
-                fees: [],
-                totalFees: 0,
-                message: "",
-                title: "",
-                amount: "",
-                icon: ""
-            },
-            availability: {
-                opened: true,
-                nextOpenMessage: "",
-                nextCloseMessage: ""
-            },
-            longDistanceEnabled: 0,
-            rainMode: "NONE",
-            thirdPartyAddress: false,
-            thirdPartyVendor: "",
-            adTrackingID: "",
-            badges: {
-                imageBased: [],
-                textBased: [],
-                textExtendedBadges: []
-            },
-            lastMileTravelString: "0.6 kms",
-            hasSurge: false,
-            sla: {
-                restaurantId: "321517",
-                deliveryTime: 25,
-                minDeliveryTime: 25,
-                maxDeliveryTime: 25,
-                lastMileTravel: 0.699999988079071,
-                lastMileDistance: 0,
-                serviceability: "SERVICEABLE",
-                rainMode: "NONE",
-                longDistance: "NOT_LONG_DISTANCE",
-                preferentialService: false,
-                iconType: "EMPTY"
-            },
-            promoted: false,
-            avgRating: "2.8",
-            totalRatings: 50,
-            new: false
-        },
-        subtype: "basic"
-    },
-    {
-        type: "restaurant",
-        data: {
-            type: "F",
-            id: "311806",
-            name: "Burger King",
-            uuid: "162a4dc4-50de-452a-82cf-751e18ac9952",
-            city: "22",
-            area: "Anand Vihar Colony",
-            totalRatingsString: "5000 ratings",
-            cloudinaryImageId: "iqh7ew5ldfgvpd5dpz60",
-            cuisines: [
-                "Burgers",
-                "American"
-            ],
-            tags: [],
-            costForTwo: 35000,
-            costForTwoString: "₹350 FOR TWO",
-            deliveryTime: 39,
-            minDeliveryTime: 39,
-            maxDeliveryTime: 39,
-            slaString: "39 MINS",
-            lastMileTravel: 6.300000190734863,
-            slugs: {
-                restaurant: "burger-king-chakrata-road-ballupur",
-                city: "dehradun"
-            },
-            cityState: "22",
-            address: "5/5,4/4 & 3/3, GROUND FLOOR, CHAKRATA ROAD, DEHRADUN, UTTRAKHAND",
-            locality: "CHAKRATA ROAD",
-            parentId: 166,
-            unserviceable: false,
-            veg: false,
-            select: false,
-            favorite: false,
-            tradeCampaignHeaders: [],
-            aggregatedDiscountInfo: {
-                header: "60% off",
-                shortDescriptionList: [
-                    {
-                        meta: "60% off | Use STEALDEAL",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT"
-                    }
-                ],
-                descriptionList: [
-                    {
-                        meta: "60% off up to ₹120 | Use code STEALDEAL",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT"
-                    }
-                ],
-                subHeader: "",
-                headerType: 0,
-                superFreedel: ""
-            },
-            aggregatedDiscountInfoV2: {
-                header: "60% OFF",
-                shortDescriptionList: [
-                    {
-                        meta: "Use STEALDEAL",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT"
-                    }
-                ],
-                descriptionList: [
-                    {
-                        meta: "60% off up to ₹120 | Use code STEALDEAL",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT"
-                    }
-                ],
-                subHeader: "",
-                headerType: 0,
-                superFreedel: ""
-            },
-            ribbon: [
-                {
-                    type: "PROMOTED"
-                }
-            ],
-            chain: [],
-            feeDetails: {
-                fees: [],
-                totalFees: 0,
-                message: "",
-                title: "",
-                amount: "",
-                icon: ""
-            },
-            availability: {
-                opened: true,
-                nextOpenMessage: "",
-                nextCloseMessage: ""
-            },
-            longDistanceEnabled: 0,
-            rainMode: "NONE",
-            thirdPartyAddress: false,
-            thirdPartyVendor: "",
-            adTrackingID: "cid=5700193~p=4~eid=00000185-8b09-7c92-0e51-a04c00dc0405",
-            badges: {
-                imageBased: [],
-                textBased: [],
-                textExtendedBadges: []
-            },
-            lastMileTravelString: "6.3 kms",
-            hasSurge: false,
-            sla: {
-                restaurantId: "311806",
-                deliveryTime: 39,
-                minDeliveryTime: 39,
-                maxDeliveryTime: 39,
-                lastMileTravel: 6.300000190734863,
-                lastMileDistance: 0,
-                serviceability: "SERVICEABLE",
-                rainMode: "NONE",
-                longDistance: "NOT_LONG_DISTANCE",
-                preferentialService: false,
-                iconType: "EMPTY"
-            },
-            promoted: true,
-            avgRating: "4.2",
-            totalRatings: 5000,
-            new: false
-        },
-        subtype: "basic"
-    },
-    {
-        type: "restaurant",
-        data: {
-            type: "F",
-            id: "132460",
-            name: "Annapurna Andhra Mess",
-            uuid: "c6460418-904b-4371-9e04-0ce8b1b46cae",
-            city: "22",
-            area: "Dehradun",
-            totalRatingsString: "1000 ratings",
-            cloudinaryImageId: "zw4qx2szsy9kbszk9n3d",
-            cuisines: [
-                "South Indian",
-                "Biryani",
-                "North Indian"
-            ],
-            tags: [],
-            costForTwo: 20000,
-            costForTwoString: "₹200 FOR TWO",
-            deliveryTime: 25,
-            minDeliveryTime: 25,
-            maxDeliveryTime: 25,
-            slaString: "25 MINS",
-            lastMileTravel: 1.399999976158142,
-            slugs: {
-                restaurant: "annapurna-andhra-mess-subhash-nagar-subhash-nagar",
-                city: "dehradun"
-            },
-            cityState: "22",
-            address: "keshav enclave sewla khurd chandrabani road behind uttranchal PG college",
-            locality: "Patel Nagar",
-            parentId: 33997,
-            unserviceable: false,
-            veg: false,
-            select: false,
-            favorite: false,
-            tradeCampaignHeaders: [],
-            aggregatedDiscountInfo: {
-                header: "50% off",
-                shortDescriptionList: [
-                    {
-                        meta: "50% off | Use WELCOME50",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT"
-                    }
-                ],
-                descriptionList: [
-                    {
-                        meta: "50% off up to ₹100 | Use code WELCOME50",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT"
-                    }
-                ],
-                subHeader: "",
-                headerType: 0,
-                superFreedel: ""
-            },
-            aggregatedDiscountInfoV2: {
-                header: "50% OFF",
-                shortDescriptionList: [
-                    {
-                        meta: "Use WELCOME50",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT"
-                    }
-                ],
-                descriptionList: [
-                    {
-                        meta: "50% off up to ₹100 | Use code WELCOME50",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT"
-                    }
-                ],
-                subHeader: "",
-                headerType: 0,
-                superFreedel: ""
-            },
-            chain: [],
-            feeDetails: {
-                fees: [],
-                totalFees: 0,
-                message: "",
-                title: "",
-                amount: "",
-                icon: ""
-            },
-            availability: {
-                opened: true,
-                nextOpenMessage: "",
-                nextCloseMessage: ""
-            },
-            longDistanceEnabled: 0,
-            rainMode: "NONE",
-            thirdPartyAddress: false,
-            thirdPartyVendor: "",
-            adTrackingID: "",
-            badges: {
-                imageBased: [],
-                textBased: [],
-                textExtendedBadges: []
-            },
-            lastMileTravelString: "1.3 kms",
-            hasSurge: false,
-            sla: {
-                restaurantId: "132460",
-                deliveryTime: 25,
-                minDeliveryTime: 25,
-                maxDeliveryTime: 25,
-                lastMileTravel: 1.399999976158142,
-                lastMileDistance: 0,
-                serviceability: "SERVICEABLE",
-                rainMode: "NONE",
-                longDistance: "NOT_LONG_DISTANCE",
-                preferentialService: false,
-                iconType: "EMPTY"
-            },
-            promoted: false,
-            avgRating: "4.0",
-            totalRatings: 1000,
-            new: false
-        },
-        subtype: "basic"
-    },
-    {
-        type: "restaurant",
-        data: {
-            type: "F",
-            id: "496677",
-            name: "Uncle Ji Restaurant",
-            uuid: "e652ab57-22c2-4226-b5ea-a5caa26ee0f8",
-            city: "22",
-            area: "Patel Nagar",
-            totalRatingsString: "Too Few Ratings",
-            cloudinaryImageId: "kx2ghnwagcnqjtmd5jbc",
-            cuisines: [
-                "North Indian",
-                "Snacks",
-                "Beverages"
-            ],
-            tags: [],
-            costForTwo: 30000,
-            costForTwoString: "₹300 FOR TWO",
-            deliveryTime: 31,
-            minDeliveryTime: 31,
-            maxDeliveryTime: 31,
-            slaString: "31 MINS",
-            lastMileTravel: 0.800000011920929,
-            slugs: {
-                restaurant: "uncle-ji-restaurant-patel-nagar-patel-nagar",
-                city: "dehradun"
-            },
-            cityState: "22",
-            address: "348 santosh tower, majra road gram majra dehradun 248001",
-            locality: "Patel Nagar",
-            parentId: 298209,
-            unserviceable: false,
-            veg: false,
-            select: false,
-            favorite: false,
-            tradeCampaignHeaders: [],
-            aggregatedDiscountInfo: {
-                header: "50% off",
-                shortDescriptionList: [
-                    {
-                        meta: "50% off | Use WELCOME50",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT"
-                    }
-                ],
-                descriptionList: [
-                    {
-                        meta: "50% off up to ₹100 | Use code WELCOME50",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT"
-                    }
-                ],
-                subHeader: "",
-                headerType: 0,
-                superFreedel: ""
-            },
-            aggregatedDiscountInfoV2: {
-                header: "50% OFF",
-                shortDescriptionList: [
-                    {
-                        meta: "Use WELCOME50",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT"
-                    }
-                ],
-                descriptionList: [
-                    {
-                        meta: "50% off up to ₹100 | Use code WELCOME50",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT"
-                    }
-                ],
-                subHeader: "",
-                headerType: 0,
-                superFreedel: ""
-            },
-            chain: [],
-            feeDetails: {
-                fees: [],
-                totalFees: 0,
-                message: "",
-                title: "",
-                amount: "",
-                icon: ""
-            },
-            availability: {
-                opened: true,
-                nextOpenMessage: "",
-                nextCloseMessage: ""
-            },
-            longDistanceEnabled: 0,
-            rainMode: "NONE",
-            thirdPartyAddress: false,
-            thirdPartyVendor: "",
-            adTrackingID: "",
-            badges: {
-                imageBased: [],
-                textBased: [],
-                textExtendedBadges: []
-            },
-            lastMileTravelString: "0.8 kms",
-            hasSurge: false,
-            sla: {
-                restaurantId: "496677",
-                deliveryTime: 31,
-                minDeliveryTime: 31,
-                maxDeliveryTime: 31,
-                lastMileTravel: 0.800000011920929,
-                lastMileDistance: 0,
-                serviceability: "SERVICEABLE",
-                rainMode: "NONE",
-                longDistance: "NOT_LONG_DISTANCE",
-                preferentialService: false,
-                iconType: "EMPTY"
-            },
-            promoted: false,
-            avgRating: "--",
-            totalRatings: 0,
-            new: false
-        },
-        subtype: "basic"
-    }
-];
-const RestrauntCard = ({ name , cuisines , cloudinaryImageId , lastMileTravelString  })=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "card",
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                src: "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/" + cloudinaryImageId
-            }, void 0, false, {
-                fileName: "App.js",
-                lineNumber: 790,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                children: name
-            }, void 0, false, {
-                fileName: "App.js",
-                lineNumber: 796,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                children: cuisines.join(", ")
-            }, void 0, false, {
-                fileName: "App.js",
-                lineNumber: 797,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
-                children: [
-                    lastMileTravelString,
-                    " minutes"
-                ]
-            }, void 0, true, {
-                fileName: "App.js",
-                lineNumber: 798,
-                columnNumber: 7
-            }, undefined)
-        ]
-    }, void 0, true, {
-        fileName: "App.js",
-        lineNumber: 789,
-        columnNumber: 5
-    }, undefined);
-};
-_c2 = RestrauntCard;
-const Body = ()=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "restaurant-list",
-        children: cardList.map((restaurant)=>{
-            return /*#__PURE__*/ (0, _react.createElement)(RestrauntCard, {
-                ...restaurant.data,
-                key: restaurant.data.id,
-                __source: {
-                    fileName: "App.js",
-                    lineNumber: 807,
-                    columnNumber: 16
-                },
-                __self: undefined
-            });
-        })
-    }, void 0, false, {
-        fileName: "App.js",
-        lineNumber: 805,
-        columnNumber: 5
-    }, undefined);
-};
-_c3 = Body;
-// no key (not acceptable)<<<<<<<<<<< index key(last option) <<<<< unquie key (best practice)
-const AppLayout = ()=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(HeaderComponent, {}, void 0, false, {
-                fileName: "App.js",
-                lineNumber: 818,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Body, {}, void 0, false, {
-                fileName: "App.js",
-                lineNumber: 819,
-                columnNumber: 7
-            }, undefined)
-        ]
-    }, void 0, true);
-};
-_c4 = AppLayout;
+const heading1 = /*#__PURE__*/ (0, _reactDefault.default).createElement("h1", {
+    class: "head1"
+}, "Heading1");
+const heading2 = /*#__PURE__*/ (0, _reactDefault.default).createElement("h1", {}, "Heading2");
+const container = /*#__PURE__*/ (0, _reactDefault.default).createElement("div", {
+    class: "container"
+}, [
+    heading1,
+    heading2
+]);
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
-root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(AppLayout, {}, void 0, false, {
-    fileName: "App.js",
-    lineNumber: 826,
-    columnNumber: 13
-}, undefined));
-var _c, _c1, _c2, _c3, _c4;
-$RefreshReg$(_c, "Title");
-$RefreshReg$(_c1, "HeaderComponent");
-$RefreshReg$(_c2, "RestrauntCard");
-$RefreshReg$(_c3, "Body");
-$RefreshReg$(_c4, "AppLayout");
+root.render(container);
 
   $parcel$ReactRefreshHelpers$c1db.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react-dom/client":"lOjBx"}],"21dqq":[function(require,module,exports) {
 "use strict";
-module.exports = require("5f622a1804adf5b4");
+module.exports = require("814f719fa815b247");
 
-},{"5f622a1804adf5b4":"48uCM"}],"48uCM":[function(require,module,exports) {
-/**
- * @license React
- * react-jsx-dev-runtime.development.js
- *
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */ "use strict";
-(function() {
-    "use strict";
-    var React = require("a8b3daec2de3c423");
-    // ATTENTION
-    // When adding new symbols to this file,
-    // Please consider also adding to 'react-devtools-shared/src/backend/ReactSymbols'
-    // The Symbol used to tag the ReactElement-like types.
-    var REACT_ELEMENT_TYPE = Symbol.for("react.element");
-    var REACT_PORTAL_TYPE = Symbol.for("react.portal");
-    var REACT_FRAGMENT_TYPE = Symbol.for("react.fragment");
-    var REACT_STRICT_MODE_TYPE = Symbol.for("react.strict_mode");
-    var REACT_PROFILER_TYPE = Symbol.for("react.profiler");
-    var REACT_PROVIDER_TYPE = Symbol.for("react.provider");
-    var REACT_CONTEXT_TYPE = Symbol.for("react.context");
-    var REACT_FORWARD_REF_TYPE = Symbol.for("react.forward_ref");
-    var REACT_SUSPENSE_TYPE = Symbol.for("react.suspense");
-    var REACT_SUSPENSE_LIST_TYPE = Symbol.for("react.suspense_list");
-    var REACT_MEMO_TYPE = Symbol.for("react.memo");
-    var REACT_LAZY_TYPE = Symbol.for("react.lazy");
-    var REACT_OFFSCREEN_TYPE = Symbol.for("react.offscreen");
-    var MAYBE_ITERATOR_SYMBOL = Symbol.iterator;
-    var FAUX_ITERATOR_SYMBOL = "@@iterator";
-    function getIteratorFn(maybeIterable) {
-        if (maybeIterable === null || typeof maybeIterable !== "object") return null;
-        var maybeIterator = MAYBE_ITERATOR_SYMBOL && maybeIterable[MAYBE_ITERATOR_SYMBOL] || maybeIterable[FAUX_ITERATOR_SYMBOL];
-        if (typeof maybeIterator === "function") return maybeIterator;
-        return null;
-    }
-    var ReactSharedInternals = React.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
-    function error(format) {
-        for(var _len2 = arguments.length, args = new Array(_len2 > 1 ? _len2 - 1 : 0), _key2 = 1; _key2 < _len2; _key2++)args[_key2 - 1] = arguments[_key2];
-        printWarning("error", format, args);
-    }
-    function printWarning(level, format, args) {
-        var ReactDebugCurrentFrame = ReactSharedInternals.ReactDebugCurrentFrame;
-        var stack = ReactDebugCurrentFrame.getStackAddendum();
-        if (stack !== "") {
-            format += "%s";
-            args = args.concat([
-                stack
-            ]);
-        } // eslint-disable-next-line react-internal/safe-string-coercion
-        var argsWithFormat = args.map(function(item) {
-            return String(item);
-        }); // Careful: RN currently depends on this prefix
-        argsWithFormat.unshift("Warning: " + format); // We intentionally don't use spread (or .apply) directly because it
-        // breaks IE9: https://github.com/facebook/react/issues/13610
-        // eslint-disable-next-line react-internal/no-production-logging
-        Function.prototype.apply.call(console[level], console, argsWithFormat);
-    }
-    // -----------------------------------------------------------------------------
-    var enableScopeAPI = false; // Experimental Create Event Handle API.
-    var enableCacheElement = false;
-    var enableTransitionTracing = false; // No known bugs, but needs performance testing
-    var enableLegacyHidden = false; // Enables unstable_avoidThisFallback feature in Fiber
-    // stuff. Intended to enable React core members to more easily debug scheduling
-    // issues in DEV builds.
-    var enableDebugTracing = false; // Track which Fiber(s) schedule render work.
-    var REACT_MODULE_REFERENCE;
-    REACT_MODULE_REFERENCE = Symbol.for("react.module.reference");
-    function isValidElementType(type) {
-        if (typeof type === "string" || typeof type === "function") return true;
-         // Note: typeof might be other than 'symbol' or 'number' (e.g. if it's a polyfill).
-        if (type === REACT_FRAGMENT_TYPE || type === REACT_PROFILER_TYPE || enableDebugTracing || type === REACT_STRICT_MODE_TYPE || type === REACT_SUSPENSE_TYPE || type === REACT_SUSPENSE_LIST_TYPE || enableLegacyHidden || type === REACT_OFFSCREEN_TYPE || enableScopeAPI || enableCacheElement || enableTransitionTracing) return true;
-        if (typeof type === "object" && type !== null) {
-            if (type.$$typeof === REACT_LAZY_TYPE || type.$$typeof === REACT_MEMO_TYPE || type.$$typeof === REACT_PROVIDER_TYPE || type.$$typeof === REACT_CONTEXT_TYPE || type.$$typeof === REACT_FORWARD_REF_TYPE || // This needs to include all possible module reference object
-            // types supported by any Flight configuration anywhere since
-            // we don't know which Flight build this will end up being used
-            // with.
-            type.$$typeof === REACT_MODULE_REFERENCE || type.getModuleId !== undefined) return true;
-        }
-        return false;
-    }
-    function getWrappedName(outerType, innerType, wrapperName) {
-        var displayName = outerType.displayName;
-        if (displayName) return displayName;
-        var functionName = innerType.displayName || innerType.name || "";
-        return functionName !== "" ? wrapperName + "(" + functionName + ")" : wrapperName;
-    } // Keep in sync with react-reconciler/getComponentNameFromFiber
-    function getContextName(type) {
-        return type.displayName || "Context";
-    } // Note that the reconciler package should generally prefer to use getComponentNameFromFiber() instead.
-    function getComponentNameFromType(type) {
-        if (type == null) // Host root, text node or just invalid type.
-        return null;
-        if (typeof type.tag === "number") error("Received an unexpected object in getComponentNameFromType(). This is likely a bug in React. Please file an issue.");
-        if (typeof type === "function") return type.displayName || type.name || null;
-        if (typeof type === "string") return type;
-        switch(type){
-            case REACT_FRAGMENT_TYPE:
-                return "Fragment";
-            case REACT_PORTAL_TYPE:
-                return "Portal";
-            case REACT_PROFILER_TYPE:
-                return "Profiler";
-            case REACT_STRICT_MODE_TYPE:
-                return "StrictMode";
-            case REACT_SUSPENSE_TYPE:
-                return "Suspense";
-            case REACT_SUSPENSE_LIST_TYPE:
-                return "SuspenseList";
-        }
-        if (typeof type === "object") switch(type.$$typeof){
-            case REACT_CONTEXT_TYPE:
-                var context = type;
-                return getContextName(context) + ".Consumer";
-            case REACT_PROVIDER_TYPE:
-                var provider = type;
-                return getContextName(provider._context) + ".Provider";
-            case REACT_FORWARD_REF_TYPE:
-                return getWrappedName(type, type.render, "ForwardRef");
-            case REACT_MEMO_TYPE:
-                var outerName = type.displayName || null;
-                if (outerName !== null) return outerName;
-                return getComponentNameFromType(type.type) || "Memo";
-            case REACT_LAZY_TYPE:
-                var lazyComponent = type;
-                var payload = lazyComponent._payload;
-                var init = lazyComponent._init;
-                try {
-                    return getComponentNameFromType(init(payload));
-                } catch (x) {
-                    return null;
-                }
-        }
-        return null;
-    }
-    var assign = Object.assign;
-    // Helpers to patch console.logs to avoid logging during side-effect free
-    // replaying on render function. This currently only patches the object
-    // lazily which won't cover if the log function was extracted eagerly.
-    // We could also eagerly patch the method.
-    var disabledDepth = 0;
-    var prevLog;
-    var prevInfo;
-    var prevWarn;
-    var prevError;
-    var prevGroup;
-    var prevGroupCollapsed;
-    var prevGroupEnd;
-    function disabledLog() {}
-    disabledLog.__reactDisabledLog = true;
-    function disableLogs() {
-        if (disabledDepth === 0) {
-            /* eslint-disable react-internal/no-production-logging */ prevLog = console.log;
-            prevInfo = console.info;
-            prevWarn = console.warn;
-            prevError = console.error;
-            prevGroup = console.group;
-            prevGroupCollapsed = console.groupCollapsed;
-            prevGroupEnd = console.groupEnd; // https://github.com/facebook/react/issues/19099
-            var props = {
-                configurable: true,
-                enumerable: true,
-                value: disabledLog,
-                writable: true
-            }; // $FlowFixMe Flow thinks console is immutable.
-            Object.defineProperties(console, {
-                info: props,
-                log: props,
-                warn: props,
-                error: props,
-                group: props,
-                groupCollapsed: props,
-                groupEnd: props
-            });
-        /* eslint-enable react-internal/no-production-logging */ }
-        disabledDepth++;
-    }
-    function reenableLogs() {
-        disabledDepth--;
-        if (disabledDepth === 0) {
-            /* eslint-disable react-internal/no-production-logging */ var props = {
-                configurable: true,
-                enumerable: true,
-                writable: true
-            }; // $FlowFixMe Flow thinks console is immutable.
-            Object.defineProperties(console, {
-                log: assign({}, props, {
-                    value: prevLog
-                }),
-                info: assign({}, props, {
-                    value: prevInfo
-                }),
-                warn: assign({}, props, {
-                    value: prevWarn
-                }),
-                error: assign({}, props, {
-                    value: prevError
-                }),
-                group: assign({}, props, {
-                    value: prevGroup
-                }),
-                groupCollapsed: assign({}, props, {
-                    value: prevGroupCollapsed
-                }),
-                groupEnd: assign({}, props, {
-                    value: prevGroupEnd
-                })
-            });
-        /* eslint-enable react-internal/no-production-logging */ }
-        if (disabledDepth < 0) error("disabledDepth fell below zero. This is a bug in React. Please file an issue.");
-    }
-    var ReactCurrentDispatcher = ReactSharedInternals.ReactCurrentDispatcher;
-    var prefix;
-    function describeBuiltInComponentFrame(name, source, ownerFn) {
-        if (prefix === undefined) // Extract the VM specific prefix used by each line.
-        try {
-            throw Error();
-        } catch (x) {
-            var match = x.stack.trim().match(/\n( *(at )?)/);
-            prefix = match && match[1] || "";
-        }
-         // We use the prefix to ensure our stacks line up with native stack frames.
-        return "\n" + prefix + name;
-    }
-    var reentry = false;
-    var componentFrameCache;
-    var PossiblyWeakMap = typeof WeakMap === "function" ? WeakMap : Map;
-    componentFrameCache = new PossiblyWeakMap();
-    function describeNativeComponentFrame(fn, construct) {
-        // If something asked for a stack inside a fake render, it should get ignored.
-        if (!fn || reentry) return "";
-        var frame = componentFrameCache.get(fn);
-        if (frame !== undefined) return frame;
-        var control;
-        reentry = true;
-        var previousPrepareStackTrace = Error.prepareStackTrace; // $FlowFixMe It does accept undefined.
-        Error.prepareStackTrace = undefined;
-        var previousDispatcher;
-        previousDispatcher = ReactCurrentDispatcher.current; // Set the dispatcher in DEV because this might be call in the render function
-        // for warnings.
-        ReactCurrentDispatcher.current = null;
-        disableLogs();
-        try {
-            // This should throw.
-            if (construct) {
-                // Something should be setting the props in the constructor.
-                var Fake = function() {
-                    throw Error();
-                }; // $FlowFixMe
-                Object.defineProperty(Fake.prototype, "props", {
-                    set: function() {
-                        // We use a throwing setter instead of frozen or non-writable props
-                        // because that won't throw in a non-strict mode function.
-                        throw Error();
-                    }
-                });
-                if (typeof Reflect === "object" && Reflect.construct) {
-                    // We construct a different control for this case to include any extra
-                    // frames added by the construct call.
-                    try {
-                        Reflect.construct(Fake, []);
-                    } catch (x) {
-                        control = x;
-                    }
-                    Reflect.construct(fn, [], Fake);
-                } else {
-                    try {
-                        Fake.call();
-                    } catch (x) {
-                        control = x;
-                    }
-                    fn.call(Fake.prototype);
-                }
-            } else {
-                try {
-                    throw Error();
-                } catch (x) {
-                    control = x;
-                }
-                fn();
-            }
-        } catch (sample) {
-            // This is inlined manually because closure doesn't do it for us.
-            if (sample && control && typeof sample.stack === "string") {
-                // This extracts the first frame from the sample that isn't also in the control.
-                // Skipping one frame that we assume is the frame that calls the two.
-                var sampleLines = sample.stack.split("\n");
-                var controlLines = control.stack.split("\n");
-                var s = sampleLines.length - 1;
-                var c = controlLines.length - 1;
-                while(s >= 1 && c >= 0 && sampleLines[s] !== controlLines[c])// We expect at least one stack frame to be shared.
-                // Typically this will be the root most one. However, stack frames may be
-                // cut off due to maximum stack limits. In this case, one maybe cut off
-                // earlier than the other. We assume that the sample is longer or the same
-                // and there for cut off earlier. So we should find the root most frame in
-                // the sample somewhere in the control.
-                c--;
-                for(; s >= 1 && c >= 0; s--, c--)// Next we find the first one that isn't the same which should be the
-                // frame that called our sample function and the control.
-                if (sampleLines[s] !== controlLines[c]) {
-                    // In V8, the first line is describing the message but other VMs don't.
-                    // If we're about to return the first line, and the control is also on the same
-                    // line, that's a pretty good indicator that our sample threw at same line as
-                    // the control. I.e. before we entered the sample frame. So we ignore this result.
-                    // This can happen if you passed a class to function component, or non-function.
-                    if (s !== 1 || c !== 1) do {
-                        s--;
-                        c--; // We may still have similar intermediate frames from the construct call.
-                        // The next one that isn't the same should be our match though.
-                        if (c < 0 || sampleLines[s] !== controlLines[c]) {
-                            // V8 adds a "new" prefix for native classes. Let's remove it to make it prettier.
-                            var _frame = "\n" + sampleLines[s].replace(" at new ", " at "); // If our component frame is labeled "<anonymous>"
-                            // but we have a user-provided "displayName"
-                            // splice it in to make the stack more readable.
-                            if (fn.displayName && _frame.includes("<anonymous>")) _frame = _frame.replace("<anonymous>", fn.displayName);
-                            if (typeof fn === "function") componentFrameCache.set(fn, _frame);
-                            return _frame;
-                        }
-                    }while (s >= 1 && c >= 0);
-                    break;
-                }
-            }
-        } finally{
-            reentry = false;
-            ReactCurrentDispatcher.current = previousDispatcher;
-            reenableLogs();
-            Error.prepareStackTrace = previousPrepareStackTrace;
-        } // Fallback to just using the name if we couldn't make it throw.
-        var name = fn ? fn.displayName || fn.name : "";
-        var syntheticFrame = name ? describeBuiltInComponentFrame(name) : "";
-        if (typeof fn === "function") componentFrameCache.set(fn, syntheticFrame);
-        return syntheticFrame;
-    }
-    function describeFunctionComponentFrame(fn, source, ownerFn) {
-        return describeNativeComponentFrame(fn, false);
-    }
-    function shouldConstruct(Component) {
-        var prototype = Component.prototype;
-        return !!(prototype && prototype.isReactComponent);
-    }
-    function describeUnknownElementTypeFrameInDEV(type, source, ownerFn) {
-        if (type == null) return "";
-        if (typeof type === "function") return describeNativeComponentFrame(type, shouldConstruct(type));
-        if (typeof type === "string") return describeBuiltInComponentFrame(type);
-        switch(type){
-            case REACT_SUSPENSE_TYPE:
-                return describeBuiltInComponentFrame("Suspense");
-            case REACT_SUSPENSE_LIST_TYPE:
-                return describeBuiltInComponentFrame("SuspenseList");
-        }
-        if (typeof type === "object") switch(type.$$typeof){
-            case REACT_FORWARD_REF_TYPE:
-                return describeFunctionComponentFrame(type.render);
-            case REACT_MEMO_TYPE:
-                // Memo may contain any component type so we recursively resolve it.
-                return describeUnknownElementTypeFrameInDEV(type.type, source, ownerFn);
-            case REACT_LAZY_TYPE:
-                var lazyComponent = type;
-                var payload = lazyComponent._payload;
-                var init = lazyComponent._init;
-                try {
-                    // Lazy may contain any component type so we recursively resolve it.
-                    return describeUnknownElementTypeFrameInDEV(init(payload), source, ownerFn);
-                } catch (x) {}
-        }
-        return "";
-    }
-    var hasOwnProperty = Object.prototype.hasOwnProperty;
-    var loggedTypeFailures = {};
-    var ReactDebugCurrentFrame = ReactSharedInternals.ReactDebugCurrentFrame;
-    function setCurrentlyValidatingElement(element) {
-        if (element) {
-            var owner = element._owner;
-            var stack = describeUnknownElementTypeFrameInDEV(element.type, element._source, owner ? owner.type : null);
-            ReactDebugCurrentFrame.setExtraStackFrame(stack);
-        } else ReactDebugCurrentFrame.setExtraStackFrame(null);
-    }
-    function checkPropTypes(typeSpecs, values, location, componentName, element) {
-        // $FlowFixMe This is okay but Flow doesn't know it.
-        var has = Function.call.bind(hasOwnProperty);
-        for(var typeSpecName in typeSpecs)if (has(typeSpecs, typeSpecName)) {
-            var error$1 = void 0; // Prop type validation may throw. In case they do, we don't want to
-            // fail the render phase where it didn't fail before. So we log it.
-            // After these have been cleaned up, we'll let them throw.
-            try {
-                // This is intentionally an invariant that gets caught. It's the same
-                // behavior as without this statement except with a better message.
-                if (typeof typeSpecs[typeSpecName] !== "function") {
-                    // eslint-disable-next-line react-internal/prod-error-codes
-                    var err = Error((componentName || "React class") + ": " + location + " type `" + typeSpecName + "` is invalid; " + "it must be a function, usually from the `prop-types` package, but received `" + typeof typeSpecs[typeSpecName] + "`." + "This often happens because of typos such as `PropTypes.function` instead of `PropTypes.func`.");
-                    err.name = "Invariant Violation";
-                    throw err;
-                }
-                error$1 = typeSpecs[typeSpecName](values, typeSpecName, componentName, location, null, "SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED");
-            } catch (ex) {
-                error$1 = ex;
-            }
-            if (error$1 && !(error$1 instanceof Error)) {
-                setCurrentlyValidatingElement(element);
-                error("%s: type specification of %s `%s` is invalid; the type checker function must return `null` or an `Error` but returned a %s. You may have forgotten to pass an argument to the type checker creator (arrayOf, instanceOf, objectOf, oneOf, oneOfType, and shape all require an argument).", componentName || "React class", location, typeSpecName, typeof error$1);
-                setCurrentlyValidatingElement(null);
-            }
-            if (error$1 instanceof Error && !(error$1.message in loggedTypeFailures)) {
-                // Only monitor this failure once because there tends to be a lot of the
-                // same error.
-                loggedTypeFailures[error$1.message] = true;
-                setCurrentlyValidatingElement(element);
-                error("Failed %s type: %s", location, error$1.message);
-                setCurrentlyValidatingElement(null);
-            }
-        }
-    }
-    var isArrayImpl = Array.isArray; // eslint-disable-next-line no-redeclare
-    function isArray(a) {
-        return isArrayImpl(a);
-    }
-    /*
- * The `'' + value` pattern (used in in perf-sensitive code) throws for Symbol
- * and Temporal.* types. See https://github.com/facebook/react/pull/22064.
- *
- * The functions in this module will throw an easier-to-understand,
- * easier-to-debug exception with a clear errors message message explaining the
- * problem. (Instead of a confusing exception thrown inside the implementation
- * of the `value` object).
- */ // $FlowFixMe only called in DEV, so void return is not possible.
-    function typeName(value) {
-        // toStringTag is needed for namespaced types like Temporal.Instant
-        var hasToStringTag = typeof Symbol === "function" && Symbol.toStringTag;
-        var type = hasToStringTag && value[Symbol.toStringTag] || value.constructor.name || "Object";
-        return type;
-    } // $FlowFixMe only called in DEV, so void return is not possible.
-    function willCoercionThrow(value) {
-        try {
-            testStringCoercion(value);
-            return false;
-        } catch (e) {
-            return true;
-        }
-    }
-    function testStringCoercion(value) {
-        // If you ended up here by following an exception call stack, here's what's
-        // happened: you supplied an object or symbol value to React (as a prop, key,
-        // DOM attribute, CSS property, string ref, etc.) and when React tried to
-        // coerce it to a string using `'' + value`, an exception was thrown.
-        //
-        // The most common types that will cause this exception are `Symbol` instances
-        // and Temporal objects like `Temporal.Instant`. But any object that has a
-        // `valueOf` or `[Symbol.toPrimitive]` method that throws will also cause this
-        // exception. (Library authors do this to prevent users from using built-in
-        // numeric operators like `+` or comparison operators like `>=` because custom
-        // methods are needed to perform accurate arithmetic or comparison.)
-        //
-        // To fix the problem, coerce this object or symbol value to a string before
-        // passing it to React. The most reliable way is usually `String(value)`.
-        //
-        // To find which value is throwing, check the browser or debugger console.
-        // Before this exception was thrown, there should be `console.error` output
-        // that shows the type (Symbol, Temporal.PlainDate, etc.) that caused the
-        // problem and how that type was used: key, atrribute, input value prop, etc.
-        // In most cases, this console output also shows the component and its
-        // ancestor components where the exception happened.
-        //
-        // eslint-disable-next-line react-internal/safe-string-coercion
-        return "" + value;
-    }
-    function checkKeyStringCoercion(value) {
-        if (willCoercionThrow(value)) {
-            error("The provided key is an unsupported type %s. This value must be coerced to a string before before using it here.", typeName(value));
-            return testStringCoercion(value); // throw (to help callers find troubleshooting comments)
-        }
-    }
-    var ReactCurrentOwner = ReactSharedInternals.ReactCurrentOwner;
-    var RESERVED_PROPS = {
-        key: true,
-        ref: true,
-        __self: true,
-        __source: true
-    };
-    var specialPropKeyWarningShown;
-    var specialPropRefWarningShown;
-    var didWarnAboutStringRefs;
-    didWarnAboutStringRefs = {};
-    function hasValidRef(config) {
-        if (hasOwnProperty.call(config, "ref")) {
-            var getter = Object.getOwnPropertyDescriptor(config, "ref").get;
-            if (getter && getter.isReactWarning) return false;
-        }
-        return config.ref !== undefined;
-    }
-    function hasValidKey(config) {
-        if (hasOwnProperty.call(config, "key")) {
-            var getter = Object.getOwnPropertyDescriptor(config, "key").get;
-            if (getter && getter.isReactWarning) return false;
-        }
-        return config.key !== undefined;
-    }
-    function warnIfStringRefCannotBeAutoConverted(config, self) {
-        if (typeof config.ref === "string" && ReactCurrentOwner.current && self && ReactCurrentOwner.current.stateNode !== self) {
-            var componentName = getComponentNameFromType(ReactCurrentOwner.current.type);
-            if (!didWarnAboutStringRefs[componentName]) {
-                error('Component "%s" contains the string ref "%s". Support for string refs will be removed in a future major release. This case cannot be automatically converted to an arrow function. We ask you to manually fix this case by using useRef() or createRef() instead. Learn more about using refs safely here: https://reactjs.org/link/strict-mode-string-ref', getComponentNameFromType(ReactCurrentOwner.current.type), config.ref);
-                didWarnAboutStringRefs[componentName] = true;
-            }
-        }
-    }
-    function defineKeyPropWarningGetter(props, displayName) {
-        var warnAboutAccessingKey = function() {
-            if (!specialPropKeyWarningShown) {
-                specialPropKeyWarningShown = true;
-                error("%s: `key` is not a prop. Trying to access it will result in `undefined` being returned. If you need to access the same value within the child component, you should pass it as a different prop. (https://reactjs.org/link/special-props)", displayName);
-            }
-        };
-        warnAboutAccessingKey.isReactWarning = true;
-        Object.defineProperty(props, "key", {
-            get: warnAboutAccessingKey,
-            configurable: true
-        });
-    }
-    function defineRefPropWarningGetter(props, displayName) {
-        var warnAboutAccessingRef = function() {
-            if (!specialPropRefWarningShown) {
-                specialPropRefWarningShown = true;
-                error("%s: `ref` is not a prop. Trying to access it will result in `undefined` being returned. If you need to access the same value within the child component, you should pass it as a different prop. (https://reactjs.org/link/special-props)", displayName);
-            }
-        };
-        warnAboutAccessingRef.isReactWarning = true;
-        Object.defineProperty(props, "ref", {
-            get: warnAboutAccessingRef,
-            configurable: true
-        });
-    }
-    /**
- * Factory method to create a new React element. This no longer adheres to
- * the class pattern, so do not use new to call it. Also, instanceof check
- * will not work. Instead test $$typeof field against Symbol.for('react.element') to check
- * if something is a React Element.
- *
- * @param {*} type
- * @param {*} props
- * @param {*} key
- * @param {string|object} ref
- * @param {*} owner
- * @param {*} self A *temporary* helper to detect places where `this` is
- * different from the `owner` when React.createElement is called, so that we
- * can warn. We want to get rid of owner and replace string `ref`s with arrow
- * functions, and as long as `this` and owner are the same, there will be no
- * change in behavior.
- * @param {*} source An annotation object (added by a transpiler or otherwise)
- * indicating filename, line number, and/or other information.
- * @internal
- */ var ReactElement = function(type, key, ref, self, source, owner, props) {
-        var element = {
-            // This tag allows us to uniquely identify this as a React Element
-            $$typeof: REACT_ELEMENT_TYPE,
-            // Built-in properties that belong on the element
-            type: type,
-            key: key,
-            ref: ref,
-            props: props,
-            // Record the component responsible for creating this element.
-            _owner: owner
-        };
-        // The validation flag is currently mutative. We put it on
-        // an external backing store so that we can freeze the whole object.
-        // This can be replaced with a WeakMap once they are implemented in
-        // commonly used development environments.
-        element._store = {}; // To make comparing ReactElements easier for testing purposes, we make
-        // the validation flag non-enumerable (where possible, which should
-        // include every environment we run tests in), so the test framework
-        // ignores it.
-        Object.defineProperty(element._store, "validated", {
-            configurable: false,
-            enumerable: false,
-            writable: true,
-            value: false
-        }); // self and source are DEV only properties.
-        Object.defineProperty(element, "_self", {
-            configurable: false,
-            enumerable: false,
-            writable: false,
-            value: self
-        }); // Two elements created in two different places should be considered
-        // equal for testing purposes and therefore we hide it from enumeration.
-        Object.defineProperty(element, "_source", {
-            configurable: false,
-            enumerable: false,
-            writable: false,
-            value: source
-        });
-        if (Object.freeze) {
-            Object.freeze(element.props);
-            Object.freeze(element);
-        }
-        return element;
-    };
-    /**
- * https://github.com/reactjs/rfcs/pull/107
- * @param {*} type
- * @param {object} props
- * @param {string} key
- */ function jsxDEV(type, config, maybeKey, source, self) {
-        var propName; // Reserved names are extracted
-        var props = {};
-        var key = null;
-        var ref = null; // Currently, key can be spread in as a prop. This causes a potential
-        // issue if key is also explicitly declared (ie. <div {...props} key="Hi" />
-        // or <div key="Hi" {...props} /> ). We want to deprecate key spread,
-        // but as an intermediary step, we will use jsxDEV for everything except
-        // <div {...props} key="Hi" />, because we aren't currently able to tell if
-        // key is explicitly declared to be undefined or not.
-        if (maybeKey !== undefined) {
-            checkKeyStringCoercion(maybeKey);
-            key = "" + maybeKey;
-        }
-        if (hasValidKey(config)) {
-            checkKeyStringCoercion(config.key);
-            key = "" + config.key;
-        }
-        if (hasValidRef(config)) {
-            ref = config.ref;
-            warnIfStringRefCannotBeAutoConverted(config, self);
-        } // Remaining properties are added to a new props object
-        for(propName in config)if (hasOwnProperty.call(config, propName) && !RESERVED_PROPS.hasOwnProperty(propName)) props[propName] = config[propName];
-         // Resolve default props
-        if (type && type.defaultProps) {
-            var defaultProps = type.defaultProps;
-            for(propName in defaultProps)if (props[propName] === undefined) props[propName] = defaultProps[propName];
-        }
-        if (key || ref) {
-            var displayName = typeof type === "function" ? type.displayName || type.name || "Unknown" : type;
-            if (key) defineKeyPropWarningGetter(props, displayName);
-            if (ref) defineRefPropWarningGetter(props, displayName);
-        }
-        return ReactElement(type, key, ref, self, source, ReactCurrentOwner.current, props);
-    }
-    var ReactCurrentOwner$1 = ReactSharedInternals.ReactCurrentOwner;
-    var ReactDebugCurrentFrame$1 = ReactSharedInternals.ReactDebugCurrentFrame;
-    function setCurrentlyValidatingElement$1(element) {
-        if (element) {
-            var owner = element._owner;
-            var stack = describeUnknownElementTypeFrameInDEV(element.type, element._source, owner ? owner.type : null);
-            ReactDebugCurrentFrame$1.setExtraStackFrame(stack);
-        } else ReactDebugCurrentFrame$1.setExtraStackFrame(null);
-    }
-    var propTypesMisspellWarningShown;
-    propTypesMisspellWarningShown = false;
-    /**
- * Verifies the object is a ReactElement.
- * See https://reactjs.org/docs/react-api.html#isvalidelement
- * @param {?object} object
- * @return {boolean} True if `object` is a ReactElement.
- * @final
- */ function isValidElement(object) {
-        return typeof object === "object" && object !== null && object.$$typeof === REACT_ELEMENT_TYPE;
-    }
-    function getDeclarationErrorAddendum() {
-        if (ReactCurrentOwner$1.current) {
-            var name = getComponentNameFromType(ReactCurrentOwner$1.current.type);
-            if (name) return "\n\nCheck the render method of `" + name + "`.";
-        }
-        return "";
-    }
-    function getSourceInfoErrorAddendum(source) {
-        if (source !== undefined) {
-            var fileName = source.fileName.replace(/^.*[\\\/]/, "");
-            var lineNumber = source.lineNumber;
-            return "\n\nCheck your code at " + fileName + ":" + lineNumber + ".";
-        }
-        return "";
-    }
-    /**
- * Warn if there's no key explicitly set on dynamic arrays of children or
- * object keys are not valid. This allows us to keep track of children between
- * updates.
- */ var ownerHasKeyUseWarning = {};
-    function getCurrentComponentErrorInfo(parentType) {
-        var info = getDeclarationErrorAddendum();
-        if (!info) {
-            var parentName = typeof parentType === "string" ? parentType : parentType.displayName || parentType.name;
-            if (parentName) info = "\n\nCheck the top-level render call using <" + parentName + ">.";
-        }
-        return info;
-    }
-    /**
- * Warn if the element doesn't have an explicit key assigned to it.
- * This element is in an array. The array could grow and shrink or be
- * reordered. All children that haven't already been validated are required to
- * have a "key" property assigned to it. Error statuses are cached so a warning
- * will only be shown once.
- *
- * @internal
- * @param {ReactElement} element Element that requires a key.
- * @param {*} parentType element's parent's type.
- */ function validateExplicitKey(element, parentType) {
-        if (!element._store || element._store.validated || element.key != null) return;
-        element._store.validated = true;
-        var currentComponentErrorInfo = getCurrentComponentErrorInfo(parentType);
-        if (ownerHasKeyUseWarning[currentComponentErrorInfo]) return;
-        ownerHasKeyUseWarning[currentComponentErrorInfo] = true; // Usually the current owner is the offender, but if it accepts children as a
-        // property, it may be the creator of the child that's responsible for
-        // assigning it a key.
-        var childOwner = "";
-        if (element && element._owner && element._owner !== ReactCurrentOwner$1.current) // Give the component that originally created this child.
-        childOwner = " It was passed a child from " + getComponentNameFromType(element._owner.type) + ".";
-        setCurrentlyValidatingElement$1(element);
-        error('Each child in a list should have a unique "key" prop.%s%s See https://reactjs.org/link/warning-keys for more information.', currentComponentErrorInfo, childOwner);
-        setCurrentlyValidatingElement$1(null);
-    }
-    /**
- * Ensure that every element either is passed in a static location, in an
- * array with an explicit keys property defined, or in an object literal
- * with valid key property.
- *
- * @internal
- * @param {ReactNode} node Statically passed child of any type.
- * @param {*} parentType node's parent's type.
- */ function validateChildKeys(node, parentType) {
-        if (typeof node !== "object") return;
-        if (isArray(node)) for(var i = 0; i < node.length; i++){
-            var child = node[i];
-            if (isValidElement(child)) validateExplicitKey(child, parentType);
-        }
-        else if (isValidElement(node)) // This element was passed in a valid location.
-        {
-            if (node._store) node._store.validated = true;
-        } else if (node) {
-            var iteratorFn = getIteratorFn(node);
-            if (typeof iteratorFn === "function") // Entry iterators used to provide implicit keys,
-            // but now we print a separate warning for them later.
-            {
-                if (iteratorFn !== node.entries) {
-                    var iterator = iteratorFn.call(node);
-                    var step;
-                    while(!(step = iterator.next()).done)if (isValidElement(step.value)) validateExplicitKey(step.value, parentType);
-                }
-            }
-        }
-    }
-    /**
- * Given an element, validate that its props follow the propTypes definition,
- * provided by the type.
- *
- * @param {ReactElement} element
- */ function validatePropTypes(element) {
-        var type = element.type;
-        if (type === null || type === undefined || typeof type === "string") return;
-        var propTypes;
-        if (typeof type === "function") propTypes = type.propTypes;
-        else if (typeof type === "object" && (type.$$typeof === REACT_FORWARD_REF_TYPE || // Note: Memo only checks outer props here.
-        // Inner props are checked in the reconciler.
-        type.$$typeof === REACT_MEMO_TYPE)) propTypes = type.propTypes;
-        else return;
-        if (propTypes) {
-            // Intentionally inside to avoid triggering lazy initializers:
-            var name = getComponentNameFromType(type);
-            checkPropTypes(propTypes, element.props, "prop", name, element);
-        } else if (type.PropTypes !== undefined && !propTypesMisspellWarningShown) {
-            propTypesMisspellWarningShown = true; // Intentionally inside to avoid triggering lazy initializers:
-            var _name = getComponentNameFromType(type);
-            error("Component %s declared `PropTypes` instead of `propTypes`. Did you misspell the property assignment?", _name || "Unknown");
-        }
-        if (typeof type.getDefaultProps === "function" && !type.getDefaultProps.isReactClassApproved) error("getDefaultProps is only used on classic React.createClass definitions. Use a static property named `defaultProps` instead.");
-    }
-    /**
- * Given a fragment, validate that it can only be provided with fragment props
- * @param {ReactElement} fragment
- */ function validateFragmentProps(fragment) {
-        var keys = Object.keys(fragment.props);
-        for(var i = 0; i < keys.length; i++){
-            var key = keys[i];
-            if (key !== "children" && key !== "key") {
-                setCurrentlyValidatingElement$1(fragment);
-                error("Invalid prop `%s` supplied to `React.Fragment`. React.Fragment can only have `key` and `children` props.", key);
-                setCurrentlyValidatingElement$1(null);
-                break;
-            }
-        }
-        if (fragment.ref !== null) {
-            setCurrentlyValidatingElement$1(fragment);
-            error("Invalid attribute `ref` supplied to `React.Fragment`.");
-            setCurrentlyValidatingElement$1(null);
-        }
-    }
-    function jsxWithValidation(type, props, key, isStaticChildren, source, self) {
-        var validType = isValidElementType(type); // We warn in this case but don't throw. We expect the element creation to
-        // succeed and there will likely be errors in render.
-        if (!validType) {
-            var info = "";
-            if (type === undefined || typeof type === "object" && type !== null && Object.keys(type).length === 0) info += " You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.";
-            var sourceInfo = getSourceInfoErrorAddendum(source);
-            if (sourceInfo) info += sourceInfo;
-            else info += getDeclarationErrorAddendum();
-            var typeString;
-            if (type === null) typeString = "null";
-            else if (isArray(type)) typeString = "array";
-            else if (type !== undefined && type.$$typeof === REACT_ELEMENT_TYPE) {
-                typeString = "<" + (getComponentNameFromType(type.type) || "Unknown") + " />";
-                info = " Did you accidentally export a JSX literal instead of a component?";
-            } else typeString = typeof type;
-            error("React.jsx: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: %s.%s", typeString, info);
-        }
-        var element = jsxDEV(type, props, key, source, self); // The result can be nullish if a mock or a custom function is used.
-        // TODO: Drop this when these are no longer allowed as the type argument.
-        if (element == null) return element;
-         // Skip key warning if the type isn't valid since our key validation logic
-        // doesn't expect a non-string/function type and can throw confusing errors.
-        // We don't want exception behavior to differ between dev and prod.
-        // (Rendering will throw with a helpful message and as soon as the type is
-        // fixed, the key warnings will appear.)
-        if (validType) {
-            var children = props.children;
-            if (children !== undefined) {
-                if (isStaticChildren) {
-                    if (isArray(children)) {
-                        for(var i = 0; i < children.length; i++)validateChildKeys(children[i], type);
-                        if (Object.freeze) Object.freeze(children);
-                    } else error("React.jsx: Static children should always be an array. You are likely explicitly calling React.jsxs or React.jsxDEV. Use the Babel transform instead.");
-                } else validateChildKeys(children, type);
-            }
-        }
-        if (type === REACT_FRAGMENT_TYPE) validateFragmentProps(element);
-        else validatePropTypes(element);
-        return element;
-    } // These two functions exist to still get child warnings in dev
-    var jsxDEV$1 = jsxWithValidation;
-    exports.Fragment = REACT_FRAGMENT_TYPE;
-    exports.jsxDEV = jsxDEV$1;
-})();
-
-},{"a8b3daec2de3c423":"21dqq"}],"21dqq":[function(require,module,exports) {
-"use strict";
-module.exports = require("267fa5e4623b56d8");
-
-},{"267fa5e4623b56d8":"6YvXz"}],"6YvXz":[function(require,module,exports) {
+},{"814f719fa815b247":"6YvXz"}],"6YvXz":[function(require,module,exports) {
 /**
  * @license React
  * react.development.js
@@ -6590,9 +4817,172 @@ module.exports = require("267fa5e4623b56d8");
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
 })();
 
-},{}],"lOjBx":[function(require,module,exports) {
+},{}],"gkKU3":[function(require,module,exports) {
+exports.interopDefault = function(a) {
+    return a && a.__esModule ? a : {
+        default: a
+    };
+};
+exports.defineInteropFlag = function(a) {
+    Object.defineProperty(a, "__esModule", {
+        value: true
+    });
+};
+exports.exportAll = function(source, dest) {
+    Object.keys(source).forEach(function(key) {
+        if (key === "default" || key === "__esModule" || dest.hasOwnProperty(key)) return;
+        Object.defineProperty(dest, key, {
+            enumerable: true,
+            get: function() {
+                return source[key];
+            }
+        });
+    });
+    return dest;
+};
+exports.export = function(dest, destName, get) {
+    Object.defineProperty(dest, destName, {
+        enumerable: true,
+        get: get
+    });
+};
+
+},{}],"km3Ru":[function(require,module,exports) {
 "use strict";
-var m = require("7609abeb2d417a1");
+var Refresh = require("9e86680b79e66498");
+function debounce(func, delay) {
+    {
+        let timeout = undefined;
+        let lastTime = 0;
+        return function(args) {
+            // Call immediately if last call was more than the delay ago.
+            // Otherwise, set a timeout. This means the first call is fast
+            // (for the common case of a single update), and subsequent updates
+            // are batched.
+            let now = Date.now();
+            if (now - lastTime > delay) {
+                lastTime = now;
+                func.call(null, args);
+            } else {
+                clearTimeout(timeout);
+                timeout = setTimeout(function() {
+                    timeout = undefined;
+                    lastTime = Date.now();
+                    func.call(null, args);
+                }, delay);
+            }
+        };
+    }
+}
+var enqueueUpdate = debounce(function() {
+    Refresh.performReactRefresh();
+}, 30); // Everthing below is either adapted or copied from
+// https://github.com/facebook/metro/blob/61de16bd1edd7e738dd0311c89555a644023ab2d/packages/metro/src/lib/polyfills/require.js
+// MIT License - Copyright (c) Facebook, Inc. and its affiliates.
+module.exports.prelude = function(module1) {
+    window.$RefreshReg$ = function(type, id) {
+        Refresh.register(type, module1.id + " " + id);
+    };
+    window.$RefreshSig$ = Refresh.createSignatureFunctionForTransform;
+};
+module.exports.postlude = function(module1) {
+    if (isReactRefreshBoundary(module1.exports)) {
+        registerExportsForReactRefresh(module1);
+        if (module1.hot) {
+            module1.hot.dispose(function(data) {
+                if (Refresh.hasUnrecoverableErrors()) window.location.reload();
+                data.prevExports = module1.exports;
+            });
+            module1.hot.accept(function(getParents) {
+                var prevExports = module1.hot.data.prevExports;
+                var nextExports = module1.exports; // Since we just executed the code for it, it's possible
+                // that the new exports make it ineligible for being a boundary.
+                var isNoLongerABoundary = !isReactRefreshBoundary(nextExports); // It can also become ineligible if its exports are incompatible
+                // with the previous exports.
+                // For example, if you add/remove/change exports, we'll want
+                // to re-execute the importing modules, and force those components
+                // to re-render. Similarly, if you convert a class component
+                // to a function, we want to invalidate the boundary.
+                var didInvalidate = shouldInvalidateReactRefreshBoundary(prevExports, nextExports);
+                if (isNoLongerABoundary || didInvalidate) {
+                    // We'll be conservative. The only case in which we won't do a full
+                    // reload is if all parent modules are also refresh boundaries.
+                    // In that case we'll add them to the current queue.
+                    var parents = getParents();
+                    if (parents.length === 0) {
+                        // Looks like we bubbled to the root. Can't recover from that.
+                        window.location.reload();
+                        return;
+                    }
+                    return parents;
+                }
+                enqueueUpdate();
+            });
+        }
+    }
+};
+function isReactRefreshBoundary(exports) {
+    if (Refresh.isLikelyComponentType(exports)) return true;
+    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
+    return false;
+    var hasExports = false;
+    var areAllExportsComponents = true;
+    let isESM = "__esModule" in exports;
+    for(var key in exports){
+        hasExports = true;
+        if (key === "__esModule") continue;
+        var desc = Object.getOwnPropertyDescriptor(exports, key);
+        if (desc && desc.get && !isESM) // Don't invoke getters for CJS as they may have side effects.
+        return false;
+        var exportValue = exports[key];
+        if (!Refresh.isLikelyComponentType(exportValue)) areAllExportsComponents = false;
+    }
+    return hasExports && areAllExportsComponents;
+}
+function shouldInvalidateReactRefreshBoundary(prevExports, nextExports) {
+    var prevSignature = getRefreshBoundarySignature(prevExports);
+    var nextSignature = getRefreshBoundarySignature(nextExports);
+    if (prevSignature.length !== nextSignature.length) return true;
+    for(var i = 0; i < nextSignature.length; i++){
+        if (prevSignature[i] !== nextSignature[i]) return true;
+    }
+    return false;
+} // When this signature changes, it's unsafe to stop at this refresh boundary.
+function getRefreshBoundarySignature(exports) {
+    var signature = [];
+    signature.push(Refresh.getFamilyByType(exports));
+    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
+    // (This is important for legacy environments.)
+    return signature;
+    let isESM = "__esModule" in exports;
+    for(var key in exports){
+        if (key === "__esModule") continue;
+        var desc = Object.getOwnPropertyDescriptor(exports, key);
+        if (desc && desc.get && !isESM) continue;
+        var exportValue = exports[key];
+        signature.push(key);
+        signature.push(Refresh.getFamilyByType(exportValue));
+    }
+    return signature;
+}
+function registerExportsForReactRefresh(module1) {
+    var exports = module1.exports, id = module1.id;
+    Refresh.register(exports, id + " %exports%");
+    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
+    // (This is important for legacy environments.)
+    return;
+    let isESM = "__esModule" in exports;
+    for(var key in exports){
+        var desc = Object.getOwnPropertyDescriptor(exports, key);
+        if (desc && desc.get && !isESM) continue;
+        var exportValue = exports[key];
+        Refresh.register(exportValue, id + " %exports% " + key);
+    }
+}
+
+},{"9e86680b79e66498":"786KC"}],"lOjBx":[function(require,module,exports) {
+"use strict";
+var m = require("9c76ae131ff78c92");
 var i = m.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
 exports.createRoot = function(c, o) {
     i.usingClientEntryPoint = true;
@@ -6611,7 +5001,7 @@ exports.hydrateRoot = function(c, h, o) {
     }
 };
 
-},{"7609abeb2d417a1":"j6uA9"}],"j6uA9":[function(require,module,exports) {
+},{"9c76ae131ff78c92":"j6uA9"}],"j6uA9":[function(require,module,exports) {
 "use strict";
 function checkDCE() {
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ === "undefined" || typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.checkDCE !== "function") return;
@@ -6625,9 +5015,9 @@ function checkDCE() {
     // a false positive.
     throw new Error("^_^");
 }
-module.exports = require("e09ba9ece73cbe6b");
+module.exports = require("64aa19a044bdb3c2");
 
-},{"e09ba9ece73cbe6b":"3iA9v"}],"3iA9v":[function(require,module,exports) {
+},{"64aa19a044bdb3c2":"3iA9v"}],"3iA9v":[function(require,module,exports) {
 /**
  * @license React
  * react-dom.development.js
@@ -6640,8 +5030,8 @@ module.exports = require("e09ba9ece73cbe6b");
 (function() {
     "use strict";
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(new Error());
-    var React = require("c86b00dc4396aa7b");
-    var Scheduler = require("d440e50e91edb573");
+    var React = require("695b2d2b43f8383f");
+    var Scheduler = require("6e883132047828ef");
     var ReactSharedInternals = React.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
     var suppressWarning = false;
     function setSuppressWarning(newSuppressWarning) {
@@ -27612,11 +26002,11 @@ module.exports = require("e09ba9ece73cbe6b");
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
 })();
 
-},{"c86b00dc4396aa7b":"21dqq","d440e50e91edb573":"juvHo"}],"juvHo":[function(require,module,exports) {
+},{"695b2d2b43f8383f":"21dqq","6e883132047828ef":"juvHo"}],"juvHo":[function(require,module,exports) {
 "use strict";
-module.exports = require("7915ffaca93ffe73");
+module.exports = require("fcd373594058f6de");
 
-},{"7915ffaca93ffe73":"RqdIf"}],"RqdIf":[function(require,module,exports) {
+},{"fcd373594058f6de":"RqdIf"}],"RqdIf":[function(require,module,exports) {
 /**
  * @license React
  * scheduler.development.js
@@ -28070,169 +26460,6 @@ module.exports = require("7915ffaca93ffe73");
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
 })();
 
-},{}],"gkKU3":[function(require,module,exports) {
-exports.interopDefault = function(a) {
-    return a && a.__esModule ? a : {
-        default: a
-    };
-};
-exports.defineInteropFlag = function(a) {
-    Object.defineProperty(a, "__esModule", {
-        value: true
-    });
-};
-exports.exportAll = function(source, dest) {
-    Object.keys(source).forEach(function(key) {
-        if (key === "default" || key === "__esModule" || dest.hasOwnProperty(key)) return;
-        Object.defineProperty(dest, key, {
-            enumerable: true,
-            get: function() {
-                return source[key];
-            }
-        });
-    });
-    return dest;
-};
-exports.export = function(dest, destName, get) {
-    Object.defineProperty(dest, destName, {
-        enumerable: true,
-        get: get
-    });
-};
-
-},{}],"km3Ru":[function(require,module,exports) {
-"use strict";
-var Refresh = require("dd2d50f54588d633");
-function debounce(func, delay) {
-    {
-        let timeout = undefined;
-        let lastTime = 0;
-        return function(args) {
-            // Call immediately if last call was more than the delay ago.
-            // Otherwise, set a timeout. This means the first call is fast
-            // (for the common case of a single update), and subsequent updates
-            // are batched.
-            let now = Date.now();
-            if (now - lastTime > delay) {
-                lastTime = now;
-                func.call(null, args);
-            } else {
-                clearTimeout(timeout);
-                timeout = setTimeout(function() {
-                    timeout = undefined;
-                    lastTime = Date.now();
-                    func.call(null, args);
-                }, delay);
-            }
-        };
-    }
-}
-var enqueueUpdate = debounce(function() {
-    Refresh.performReactRefresh();
-}, 30); // Everthing below is either adapted or copied from
-// https://github.com/facebook/metro/blob/61de16bd1edd7e738dd0311c89555a644023ab2d/packages/metro/src/lib/polyfills/require.js
-// MIT License - Copyright (c) Facebook, Inc. and its affiliates.
-module.exports.prelude = function(module1) {
-    window.$RefreshReg$ = function(type, id) {
-        Refresh.register(type, module1.id + " " + id);
-    };
-    window.$RefreshSig$ = Refresh.createSignatureFunctionForTransform;
-};
-module.exports.postlude = function(module1) {
-    if (isReactRefreshBoundary(module1.exports)) {
-        registerExportsForReactRefresh(module1);
-        if (module1.hot) {
-            module1.hot.dispose(function(data) {
-                if (Refresh.hasUnrecoverableErrors()) window.location.reload();
-                data.prevExports = module1.exports;
-            });
-            module1.hot.accept(function(getParents) {
-                var prevExports = module1.hot.data.prevExports;
-                var nextExports = module1.exports; // Since we just executed the code for it, it's possible
-                // that the new exports make it ineligible for being a boundary.
-                var isNoLongerABoundary = !isReactRefreshBoundary(nextExports); // It can also become ineligible if its exports are incompatible
-                // with the previous exports.
-                // For example, if you add/remove/change exports, we'll want
-                // to re-execute the importing modules, and force those components
-                // to re-render. Similarly, if you convert a class component
-                // to a function, we want to invalidate the boundary.
-                var didInvalidate = shouldInvalidateReactRefreshBoundary(prevExports, nextExports);
-                if (isNoLongerABoundary || didInvalidate) {
-                    // We'll be conservative. The only case in which we won't do a full
-                    // reload is if all parent modules are also refresh boundaries.
-                    // In that case we'll add them to the current queue.
-                    var parents = getParents();
-                    if (parents.length === 0) {
-                        // Looks like we bubbled to the root. Can't recover from that.
-                        window.location.reload();
-                        return;
-                    }
-                    return parents;
-                }
-                enqueueUpdate();
-            });
-        }
-    }
-};
-function isReactRefreshBoundary(exports) {
-    if (Refresh.isLikelyComponentType(exports)) return true;
-    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
-    return false;
-    var hasExports = false;
-    var areAllExportsComponents = true;
-    let isESM = "__esModule" in exports;
-    for(var key in exports){
-        hasExports = true;
-        if (key === "__esModule") continue;
-        var desc = Object.getOwnPropertyDescriptor(exports, key);
-        if (desc && desc.get && !isESM) // Don't invoke getters for CJS as they may have side effects.
-        return false;
-        var exportValue = exports[key];
-        if (!Refresh.isLikelyComponentType(exportValue)) areAllExportsComponents = false;
-    }
-    return hasExports && areAllExportsComponents;
-}
-function shouldInvalidateReactRefreshBoundary(prevExports, nextExports) {
-    var prevSignature = getRefreshBoundarySignature(prevExports);
-    var nextSignature = getRefreshBoundarySignature(nextExports);
-    if (prevSignature.length !== nextSignature.length) return true;
-    for(var i = 0; i < nextSignature.length; i++){
-        if (prevSignature[i] !== nextSignature[i]) return true;
-    }
-    return false;
-} // When this signature changes, it's unsafe to stop at this refresh boundary.
-function getRefreshBoundarySignature(exports) {
-    var signature = [];
-    signature.push(Refresh.getFamilyByType(exports));
-    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
-    // (This is important for legacy environments.)
-    return signature;
-    let isESM = "__esModule" in exports;
-    for(var key in exports){
-        if (key === "__esModule") continue;
-        var desc = Object.getOwnPropertyDescriptor(exports, key);
-        if (desc && desc.get && !isESM) continue;
-        var exportValue = exports[key];
-        signature.push(key);
-        signature.push(Refresh.getFamilyByType(exportValue));
-    }
-    return signature;
-}
-function registerExportsForReactRefresh(module1) {
-    var exports = module1.exports, id = module1.id;
-    Refresh.register(exports, id + " %exports%");
-    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
-    // (This is important for legacy environments.)
-    return;
-    let isESM = "__esModule" in exports;
-    for(var key in exports){
-        var desc = Object.getOwnPropertyDescriptor(exports, key);
-        if (desc && desc.get && !isESM) continue;
-        var exportValue = exports[key];
-        Refresh.register(exportValue, id + " %exports% " + key);
-    }
-}
-
-},{"dd2d50f54588d633":"786KC"}]},["1xC6H","lyZ4E","2Ew96"], "2Ew96", "parcelRequirecafa")
+},{}]},["1xC6H","lyZ4E","2Ew96"], "2Ew96", "parcelRequirecd38")
 
 //# sourceMappingURL=index.7826abd7.js.map

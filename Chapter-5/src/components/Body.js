@@ -36,7 +36,7 @@ const Body = () => {
           onClick={() => {
             //need to filter the data
 
-            const data = filterData(searchText, restaurants); //I m giving the filterData function searchText variable which will be searched in the list of restaurants
+            const data = filterData(searchText, restaurants); //I m giving the filterData function -> searchText variable which will be searched in the list of restaurants
             //update the state - restaurants
             setRestaurants(data);
           }}

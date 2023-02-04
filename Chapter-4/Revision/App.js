@@ -1,12 +1,14 @@
 import React from "react";
-import ReactDOM, { createRoot } from "react-dom/client";
+import ReactDOM from "react-dom/client";
 
 /* 
-  Header
+App planning:
+
+Header
         - Logo(Title)
         - Nav Items(Right Side)
         - Cart
-     Body 
+Body 
         - Search bar
         - RestrauntList
           - RestaurantCard (many cards)
@@ -14,7 +16,7 @@ import ReactDOM, { createRoot } from "react-dom/client";
               - Name
               - Rating
               - Cusines
-     Footer
+ Footer
       - links
       - Copyright
  */
@@ -30,20 +32,22 @@ const Title = () => (
     </a>
   </h1>
 );
-// Composing Comopnentss
-const HeaderComponent = () => {
+
+const Header = () => {
   return (
-    <div className="header">
-      <Title />
-      <div className="nav-items">
-        <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Contact</li>
-          <li>cart</li>
-        </ul>
+    <>
+      <div className="header">
+        <Title />
+        <div className="nav-items">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>cart</li>
+          </ul>
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 
@@ -779,7 +783,7 @@ const cardList = [
   },
 ];
 
-const RestrauntCard = ({
+const RestaurantCard = ({
   name,
   cuisines,
   cloudinaryImageId,
@@ -804,23 +808,22 @@ const Body = () => {
   return (
     <div className="restaurant-list">
       {cardList.map((restaurant) => {
-        return <RestrauntCard {...restaurant.data} key={restaurant.data.id} />;
+        return (
+          <RestaurantCard {...restaurant?.data} key={restaurant?.data?.id} />
+        );
       })}
     </div>
   );
 };
 
-// no key (not acceptable)<<<<<<<<<<< index key(last option) <<<<< unquie key (best practice)
-
 const AppLayout = () => {
   return (
     <>
-      <HeaderComponent />
+      <Header />
       <Body />
     </>
   );
 };
-
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(<AppLayout />);

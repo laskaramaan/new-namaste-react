@@ -20,7 +20,8 @@ A. Read about it
 
 ### Read about Config driven UI
 
-when you build a real world application, The UI is driven by a config which is sent by backend
+A. Config driven UI is a very powerful way of building webapps.Config driven UI means that the config(configuration) or a big JSON object is sent from the backend.
+[See we need a config to generate a UI, It can come from backend or you can keep it hardcoded in the frontend as well]
 
 ### Q. Optional chaining (?.)
 
