@@ -48,7 +48,7 @@ A. Is is just a peice of JS code which is reading our code and then convert it t
 
 ### Q.Suppose an interviewer ask you, how can you build a performant scalable webapp
 
-A. You have to tell the interviewer that there are co many things that react optimizes and there are so many things which bundles gives us.
+A. You have to tell the interviewer that there are so many things that react optimizes and there are so many things which bundler gives us.
 So an app is a combination of all these things which makes it optimised
 
 ### Q.Differnece between npm and npx.
