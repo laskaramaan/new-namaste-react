@@ -143,8 +143,8 @@
     }
   }
 })({"1xC6H":[function(require,module,exports) {
-var Refresh = require("c1824f6419d94002");
-var ErrorOverlay = require("8d3a3a1f9f78a989");
+var Refresh = require("6af5a364dfac75cd");
+var ErrorOverlay = require("11bc525b9b99d40c");
 Refresh.injectIntoGlobalHook(window);
 window.$RefreshReg$ = function() {};
 window.$RefreshSig$ = function() {
@@ -163,11 +163,11 @@ window.addEventListener("parcelhmraccept", ()=>{
     ErrorOverlay.dismissRuntimeErrors();
 });
 
-},{"c1824f6419d94002":"786KC","8d3a3a1f9f78a989":"1dldy"}],"786KC":[function(require,module,exports) {
+},{"6af5a364dfac75cd":"786KC","11bc525b9b99d40c":"1dldy"}],"786KC":[function(require,module,exports) {
 "use strict";
-module.exports = require("df456cccf920505d");
+module.exports = require("a2a0772d7b066723");
 
-},{"df456cccf920505d":"hdge7"}],"hdge7":[function(require,module,exports) {
+},{"a2a0772d7b066723":"hdge7"}],"hdge7":[function(require,module,exports) {
 /** @license React v0.9.0
  * react-refresh-runtime.development.js
  *
@@ -628,7 +628,7 @@ module.exports = require("df456cccf920505d");
 })();
 
 },{}],"1dldy":[function(require,module,exports) {
-var process = require("cd5b19ff3bba032a");
+var process = require("c7991ec99d70e79a");
 !function(e, t) {
     module.exports = t();
 }(window, function() {
@@ -2358,7 +2358,7 @@ var process = require("cd5b19ff3bba032a");
     ]);
 });
 
-},{"cd5b19ff3bba032a":"d5jf4"}],"d5jf4":[function(require,module,exports) {
+},{"c7991ec99d70e79a":"d5jf4"}],"d5jf4":[function(require,module,exports) {
 // shim for using process in browser
 var process = module.exports = {};
 // cached from whatever global is present so that test runners that stub it
@@ -2952,7 +2952,7 @@ var _shimmerDefault = parcelHelpers.interopDefault(_shimmer);
 var _userContext = require("./utils/UserContext");
 var _userContextDefault = parcelHelpers.interopDefault(_userContext);
 var _s = $RefreshSig$();
-const InstaMart = /*#__PURE__*/ (0, _react.lazy)(()=>require("43acdbd7452bd3dc")); //It is a dynamic import-> upon render react will suspend loading
+const InstaMart = /*#__PURE__*/ (0, _react.lazy)(()=>require("b73f8e9769eed529")); //It is a dynamic import-> upon render react will suspend loading
 _c = InstaMart;
 const AppLayout = ()=>{
     _s();
@@ -3090,11 +3090,11 @@ $RefreshReg$(_c1, "AppLayout");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","./components/Header":"hsJbF","./components/Body":"8yaV8","./components/Footer":"8pPOA","react-router-dom":"9xmpe","./components/AboutUs":"47aps","./components/Error":"kvula","./components/Contact":"cgAOG","./components/RestaurantMenu":"8PuJ6","./components/Profile":"h0rtF","./components/Shimmer":"g6ZGj","43acdbd7452bd3dc":"2NP93","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./utils/UserContext":"c5vgB"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","./components/Header":"hsJbF","./components/Body":"8yaV8","./components/Footer":"8pPOA","react-router-dom":"9xmpe","./components/AboutUs":"47aps","./components/Error":"kvula","./components/Contact":"cgAOG","./components/RestaurantMenu":"8PuJ6","./components/Profile":"h0rtF","./components/Shimmer":"g6ZGj","./utils/UserContext":"c5vgB","b73f8e9769eed529":"2NP93","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
 "use strict";
-module.exports = require("397941eabd2aef1e");
+module.exports = require("a76643edbc08a4ee");
 
-},{"397941eabd2aef1e":"48uCM"}],"48uCM":[function(require,module,exports) {
+},{"a76643edbc08a4ee":"48uCM"}],"48uCM":[function(require,module,exports) {
 /**
  * @license React
  * react-jsx-dev-runtime.development.js
@@ -3106,7 +3106,7 @@ module.exports = require("397941eabd2aef1e");
  */ "use strict";
 (function() {
     "use strict";
-    var React = require("2c0dec9d427ff93f");
+    var React = require("ead11f0c5274bb83");
     // ATTENTION
     // When adding new symbols to this file,
     // Please consider also adding to 'react-devtools-shared/src/backend/ReactSymbols'
@@ -3925,11 +3925,11 @@ module.exports = require("397941eabd2aef1e");
     exports.jsxDEV = jsxDEV$1;
 })();
 
-},{"2c0dec9d427ff93f":"21dqq"}],"21dqq":[function(require,module,exports) {
+},{"ead11f0c5274bb83":"21dqq"}],"21dqq":[function(require,module,exports) {
 "use strict";
-module.exports = require("109881f2554da8bd");
+module.exports = require("573a2eaf88183a79");
 
-},{"109881f2554da8bd":"6YvXz"}],"6YvXz":[function(require,module,exports) {
+},{"573a2eaf88183a79":"6YvXz"}],"6YvXz":[function(require,module,exports) {
 /**
  * @license React
  * react.development.js
@@ -5797,7 +5797,7 @@ module.exports = require("109881f2554da8bd");
 
 },{}],"lOjBx":[function(require,module,exports) {
 "use strict";
-var m = require("b2b829e9276b1b5b");
+var m = require("490ebb8bfe364d36");
 var i = m.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
 exports.createRoot = function(c, o) {
     i.usingClientEntryPoint = true;
@@ -5816,7 +5816,7 @@ exports.hydrateRoot = function(c, h, o) {
     }
 };
 
-},{"b2b829e9276b1b5b":"j6uA9"}],"j6uA9":[function(require,module,exports) {
+},{"490ebb8bfe364d36":"j6uA9"}],"j6uA9":[function(require,module,exports) {
 "use strict";
 function checkDCE() {
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ === "undefined" || typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.checkDCE !== "function") return;
@@ -5830,9 +5830,9 @@ function checkDCE() {
     // a false positive.
     throw new Error("^_^");
 }
-module.exports = require("64a972556b7cd76a");
+module.exports = require("8d901e50f01c176c");
 
-},{"64a972556b7cd76a":"3iA9v"}],"3iA9v":[function(require,module,exports) {
+},{"8d901e50f01c176c":"3iA9v"}],"3iA9v":[function(require,module,exports) {
 /**
  * @license React
  * react-dom.development.js
@@ -5845,8 +5845,8 @@ module.exports = require("64a972556b7cd76a");
 (function() {
     "use strict";
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(new Error());
-    var React = require("248fbb11d54afcc1");
-    var Scheduler = require("480ee29bb6d245f0");
+    var React = require("8125b63ef94ee1bd");
+    var Scheduler = require("a8df1507c90b18cc");
     var ReactSharedInternals = React.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
     var suppressWarning = false;
     function setSuppressWarning(newSuppressWarning) {
@@ -26817,11 +26817,11 @@ module.exports = require("64a972556b7cd76a");
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
 })();
 
-},{"248fbb11d54afcc1":"21dqq","480ee29bb6d245f0":"juvHo"}],"juvHo":[function(require,module,exports) {
+},{"8125b63ef94ee1bd":"21dqq","a8df1507c90b18cc":"juvHo"}],"juvHo":[function(require,module,exports) {
 "use strict";
-module.exports = require("2b921919aa1b13c0");
+module.exports = require("c82c73cbb425c90a");
 
-},{"2b921919aa1b13c0":"RqdIf"}],"RqdIf":[function(require,module,exports) {
+},{"c82c73cbb425c90a":"RqdIf"}],"RqdIf":[function(require,module,exports) {
 /**
  * @license React
  * scheduler.development.js
@@ -27463,7 +27463,44 @@ $RefreshReg$(_c1, "Header");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"9xmpe","../utils/useOnline":"74Yls","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../assets/img/foodvilla.png":"jifKP","../utils/UserContext":"c5vgB"}],"9xmpe":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../assets/img/foodvilla.png":"jifKP","react-router-dom":"9xmpe","../utils/useOnline":"74Yls","../utils/UserContext":"c5vgB","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"jifKP":[function(require,module,exports) {
+module.exports = require("85f5dc88dfcb27ee").getBundleURL("aXMci") + "foodvilla.ec7c9a5c.png" + "?" + Date.now();
+
+},{"85f5dc88dfcb27ee":"lgJ39"}],"lgJ39":[function(require,module,exports) {
+"use strict";
+var bundleURL = {};
+function getBundleURLCached(id) {
+    var value = bundleURL[id];
+    if (!value) {
+        value = getBundleURL();
+        bundleURL[id] = value;
+    }
+    return value;
+}
+function getBundleURL() {
+    try {
+        throw new Error();
+    } catch (err) {
+        var matches = ("" + err.stack).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^)\n]+/g);
+        if (matches) // The first two stack frames will be this function and getBundleURLCached.
+        // Use the 3rd one, which will be a runtime in the original bundle.
+        return getBaseURL(matches[2]);
+    }
+    return "/";
+}
+function getBaseURL(url) {
+    return ("" + url).replace(/^((?:https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/.+)\/[^/]+$/, "$1") + "/";
+} // TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
+function getOrigin(url) {
+    var matches = ("" + url).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^/]+/);
+    if (!matches) throw new Error("Origin not found");
+    return matches[0];
+}
+exports.getBundleURL = getBundleURLCached;
+exports.getBaseURL = getBaseURL;
+exports.getOrigin = getOrigin;
+
+},{}],"9xmpe":[function(require,module,exports) {
 /**
  * React Router DOM v6.7.0
  *
@@ -32505,7 +32542,7 @@ exports.default = useOnline;
 }
 },{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"km3Ru":[function(require,module,exports) {
 "use strict";
-var Refresh = require("6d351fff03ef3aaa");
+var Refresh = require("d60ac6da7b7424ea");
 function debounce(func, delay) {
     {
         let timeout = undefined;
@@ -32636,44 +32673,7 @@ function registerExportsForReactRefresh(module1) {
     }
 }
 
-},{"6d351fff03ef3aaa":"786KC"}],"jifKP":[function(require,module,exports) {
-module.exports = require("e86d6333e65c2ecc").getBundleURL("aXMci") + "foodvilla.ec7c9a5c.png" + "?" + Date.now();
-
-},{"e86d6333e65c2ecc":"lgJ39"}],"lgJ39":[function(require,module,exports) {
-"use strict";
-var bundleURL = {};
-function getBundleURLCached(id) {
-    var value = bundleURL[id];
-    if (!value) {
-        value = getBundleURL();
-        bundleURL[id] = value;
-    }
-    return value;
-}
-function getBundleURL() {
-    try {
-        throw new Error();
-    } catch (err) {
-        var matches = ("" + err.stack).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^)\n]+/g);
-        if (matches) // The first two stack frames will be this function and getBundleURLCached.
-        // Use the 3rd one, which will be a runtime in the original bundle.
-        return getBaseURL(matches[2]);
-    }
-    return "/";
-}
-function getBaseURL(url) {
-    return ("" + url).replace(/^((?:https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/.+)\/[^/]+$/, "$1") + "/";
-} // TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
-function getOrigin(url) {
-    var matches = ("" + url).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^/]+/);
-    if (!matches) throw new Error("Origin not found");
-    return matches[0];
-}
-exports.getBundleURL = getBundleURLCached;
-exports.getBaseURL = getBaseURL;
-exports.getOrigin = getOrigin;
-
-},{}],"c5vgB":[function(require,module,exports) {
+},{"d60ac6da7b7424ea":"786KC"}],"c5vgB":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$4ca8 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -32860,7 +32860,7 @@ $RefreshReg$(_c, "Body");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../config":"jtCLN","./RestaurantCard":"bMboU","./Shimmer":"g6ZGj","react-router-dom":"9xmpe","../utils/helper":"3GF3D","../utils/useOnline":"74Yls","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../utils/UserContext":"c5vgB"}],"jtCLN":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../config":"jtCLN","./RestaurantCard":"bMboU","./Shimmer":"g6ZGj","react-router-dom":"9xmpe","../utils/helper":"3GF3D","../utils/useOnline":"74Yls","../utils/UserContext":"c5vgB","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"jtCLN":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "IMG_CDN_URL", ()=>IMG_CDN_URL);
@@ -33704,7 +33704,7 @@ $RefreshReg$(_c, "RestrauntCard");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../config":"jtCLN","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../utils/UserContext":"c5vgB"}],"g6ZGj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../config":"jtCLN","../utils/UserContext":"c5vgB","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"g6ZGj":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$0b04 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -33798,7 +33798,7 @@ $RefreshReg$(_c, "Footer");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../utils/UserContext":"c5vgB"}],"47aps":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../utils/UserContext":"c5vgB","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"47aps":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$7fe6 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -33881,7 +33881,77 @@ exports.default = About;
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"9xmpe","./ProfileClass":"aeEz8","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./Profile":"h0rtF","../utils/UserContext":"c5vgB"}],"aeEz8":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react-router-dom":"9xmpe","./Profile":"h0rtF","./ProfileClass":"aeEz8","react":"21dqq","../utils/UserContext":"c5vgB","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"h0rtF":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$b52a = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$b52a.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _s = $RefreshSig$();
+const Profile = ()=>{
+    _s();
+    const [count, setCount] = (0, _react.useState)(0);
+    const [count2] = (0, _react.useState)(0);
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        children: "Profile"
+    }, void 0, false, {
+        fileName: "src/components/Profile.js",
+        lineNumber: 7,
+        columnNumber: 10
+    }, undefined);
+};
+_s(Profile, "ftikO5oeAfpJfPbcHiUcxruu6VI=");
+_c = Profile;
+exports.default = Profile; // Class Based component
+ // class Profile extends React.Component {
+ //     constructor(props) {
+ //       super(props);
+ //       this.state = {
+ //         count: 0,
+ //         count2: 0,
+ //       };
+ //     }
+ //     render() {
+ //       return (
+ //         <>
+ //           <div>
+ //             <h1>This is a class compoent</h1>
+ //             <h3>{this.props.name}</h3>
+ //             <h3>{this.state.count}</h3>
+ //           </div>
+ //           <button
+ //             onClick={() => {
+ //               this.setState({
+ //                 count: 1,
+ //                 count2: 2,
+ //               });
+ //               this.setState({
+ //                 count2: 2,
+ //               });
+ //             }}
+ //           >
+ //             Set count
+ //           </button>
+ //         </>
+ //       );
+ //     }
+ //   }
+ //   export default Profile;
+var _c;
+$RefreshReg$(_c, "Profile");
+
+  $parcel$ReactRefreshHelpers$b52a.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"aeEz8":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$1beb = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -33949,76 +34019,6 @@ class Profile extends (0, _reactDefault.default).Component {
 exports.default = Profile;
 
   $parcel$ReactRefreshHelpers$1beb.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"h0rtF":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$b52a = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$b52a.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _s = $RefreshSig$();
-const Profile = ()=>{
-    _s();
-    const [count, setCount] = (0, _react.useState)(0);
-    const [count2] = (0, _react.useState)(0);
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        children: "Profile"
-    }, void 0, false, {
-        fileName: "src/components/Profile.js",
-        lineNumber: 7,
-        columnNumber: 10
-    }, undefined);
-};
-_s(Profile, "ftikO5oeAfpJfPbcHiUcxruu6VI=");
-_c = Profile;
-exports.default = Profile; // Class Based component
- // class Profile extends React.Component {
- //     constructor(props) {
- //       super(props);
- //       this.state = {
- //         count: 0,
- //         count2: 0,
- //       };
- //     }
- //     render() {
- //       return (
- //         <>
- //           <div>
- //             <h1>This is a class compoent</h1>
- //             <h3>{this.props.name}</h3>
- //             <h3>{this.state.count}</h3>
- //           </div>
- //           <button
- //             onClick={() => {
- //               this.setState({
- //                 count: 1,
- //                 count2: 2,
- //               });
- //               this.setState({
- //                 count2: 2,
- //               });
- //             }}
- //           >
- //             Set count
- //           </button>
- //         </>
- //       );
- //     }
- //   }
- //   export default Profile;
-var _c;
-$RefreshReg$(_c, "Profile");
-
-  $parcel$ReactRefreshHelpers$b52a.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
@@ -34274,14 +34274,14 @@ exports.default = useRestaurant;
   window.$RefreshSig$ = prevRefreshSig;
 }
 },{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"2NP93":[function(require,module,exports) {
-module.exports = require("e92a1b5d0c57b973")(require("4f77dc5e9406a755").getBundleURL("aXMci") + "InstaMart.7881b254.js" + "?" + Date.now()).catch((err)=>{
+module.exports = require("295c12d2066412cb")(require("b73a487289086afe").getBundleURL("aXMci") + "InstaMart.7881b254.js" + "?" + Date.now()).catch((err)=>{
     delete module.bundle.cache[module.id];
     throw err;
 }).then(()=>module.bundle.root("9bY76"));
 
-},{"e92a1b5d0c57b973":"61B45","4f77dc5e9406a755":"lgJ39"}],"61B45":[function(require,module,exports) {
+},{"295c12d2066412cb":"61B45","b73a487289086afe":"lgJ39"}],"61B45":[function(require,module,exports) {
 "use strict";
-var cacheLoader = require("6179565b20e0f1a");
+var cacheLoader = require("9efe3c95dc9c0324");
 module.exports = cacheLoader(function(bundle) {
     return new Promise(function(resolve, reject) {
         // Don't insert the same script twice (e.g. if it was already in the HTML)
@@ -34315,7 +34315,7 @@ module.exports = cacheLoader(function(bundle) {
     });
 });
 
-},{"6179565b20e0f1a":"j49pS"}],"j49pS":[function(require,module,exports) {
+},{"9efe3c95dc9c0324":"j49pS"}],"j49pS":[function(require,module,exports) {
 "use strict";
 var cachedBundles = {};
 var cachedPreloads = {};
