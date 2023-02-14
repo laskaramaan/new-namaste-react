@@ -113,3 +113,34 @@ $ npm i react-router-dom
 ```
 
 - let's build watch page(on clicking on any video thumbnail it should redirect to the video playing page) now
+
+### What is higher-order-function
+
+-> Its a function which takes in a component and returns a component
+
+### Debouncing
+
+(show flipkart searchbar )
+-> Suppose I am typing something very fast, it just skips some of the events
+
+- Build the search bar
+
+- lets use youtube seacrh api
+
+### Cache:
+
+- time complexity to search in array =O(n)
+  [i,ip,iph,iphone]
+- time complexity to search in object =O(1)
+
+{
+i:
+ip:
+iph:
+iphone:
+}
+
+- We can use **new map()** as well
+
+- let's build comments section now
+  n level nested comments
