@@ -144,3 +144,20 @@ iphone:
 
 - let's build comments section now
   n level nested comments
+
+### Lets build live chat
+
+**Challanges**
+
+Data layer: Get data live
+
+UI layer: Update the UI
+
+**There are two to handle live data**
+
+- Web sockets => Web socket is a two way connection established between server and UI (it is bi-directional).
+  Once this handshake is established we can quickly send data from either sides
+  e.g- Zerodha,Live chatting apps(whatsapp)
+
+- API Polling => Here connection is uni-directional, UI will keep polling data from server at a regular interval
+  e.g- Gmail,youtube live chats
