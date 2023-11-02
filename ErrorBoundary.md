@@ -11,7 +11,8 @@ Error boundaries are react components that catch JavaScript errors anywhere in t
 
 ou need to define a class component with either or both of the following lifecycle methods: getDerivedStateFromError() or componentDidCatch().
 
-**getDerivedStateFromError():** This lifecycle method renders a fallback UI after an error is thrown. It is called during the render phase, so side effects are not permitted
+**getDerivedStateFromError():** This lifecycle method renders a fallback UI after an error is thrown. It is called during the render phase, so side effects are not permitted.
+
 **componentDidCatch():** This method is used for logging error information. It is called during the commit phase, so side effects are permitted
 
 ````class ErrorBoundary extends React.Component {
