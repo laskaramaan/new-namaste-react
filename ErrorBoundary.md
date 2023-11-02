@@ -15,7 +15,7 @@ ou need to define a class component with either or both of the following lifecyc
 
 **componentDidCatch():** This method is used for logging error information. It is called during the commit phase, so side effects are permitted
 
-````class ErrorBoundary extends React.Component {
+```class ErrorBoundary extends React.Component {
   constructor(props) {
     super(props);
     this.state = { hasError: false };
@@ -39,5 +39,5 @@ ou need to define a class component with either or both of the following lifecyc
 
     return this.props.children;
   }
-}```
-````
+}
+```
